@@ -1,0 +1,77 @@
+archetype (adl_version=1.4; uid=ed744511-0a55-47ad-9fe0-2005057f6d37)
+	openEHR-EHR-CLUSTER.hofteprosedyre_pasientopplevelse_hn.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::nb]>
+
+description
+	original_author = <
+		["date"] = <"2025-02-12">
+		["name"] = <"Jonas Lyshaug">
+		["organisation"] = <"HN IKT">
+		["email"] = <"jonas.nils.erik.lyshaug@hnikt.no">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["nb"] = <
+			language = <[ISO_639-1::nb]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"f45e329e08ff54425868f1d7a8430275">
+		["build_uid"] = <"08f0778f-ba93-3de2-802a-45f3a3269dff">
+	>
+
+definition
+	CLUSTER[at0000] matches {    -- hofteprosedyre_pasientopplevelse_hn
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Fornøydhet
+				value matches {
+					1|[local::at0006],
+					2|[local::at0007],
+					3|[local::at0008],
+					4|[local::at0009]
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["nb"] = <
+			items = <
+				["at0000"] = <
+					text = <"hofteprosedyre_pasientopplevelse_hn">
+					description = <"hofteprosedyre_pasientopplevelse_hn">
+				>
+				["at0001"] = <
+					text = <"Fornøydhet">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Veldig fornøyd">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Ganske fornøyd">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Ganske misfornøyd">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Veldig misfornøyd">
+					description = <"">
+				>
+			>
+		>
+	>
