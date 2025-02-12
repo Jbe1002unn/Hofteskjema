@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b139b28bd266338fd013696e937bc043">
+		["MD5-CAM-1.0.1"] = <"86836960497587852e926235c00de7c6">
 		["build_uid"] = <"08f0778f-ba93-3de2-802a-45f3a3269dff">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 	>
@@ -101,6 +101,16 @@ definition
 						value matches {
 							1|[local::at0040],
 							0|[local::at0041]
+						}
+					}
+					ELEMENT[at0042] occurrences matches {0..1} matches {    -- Beskriv problemet som gjør at du ønsker du å bli oppringt av en sykepleier.
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0043] occurrences matches {0..1} matches {    -- Oppgi telefonnummeret ditt.
+						value matches {
+							DV_TEXT matches {*}
 						}
 					}
 				}
@@ -244,6 +254,14 @@ ontology
 				>
 				["at0041"] = <
 					text = <"Nei, trenger ikke å bli oppringt av sykepleier">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Beskriv problemet som gjør at du ønsker du å bli oppringt av en sykepleier.">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Oppgi telefonnummeret ditt.">
 					description = <"">
 				>
 			>
