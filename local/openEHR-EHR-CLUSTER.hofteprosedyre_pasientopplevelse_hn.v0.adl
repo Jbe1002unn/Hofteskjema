@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"87065c6f138b2028a1d900ad0fcf7b35">
+		["MD5-CAM-1.0.1"] = <"ac645ed6adf9bd08377eaf7b4f2fafd5">
 		["build_uid"] = <"08f0778f-ba93-3de2-802a-45f3a3269dff">
 	>
 
@@ -49,6 +49,22 @@ definition
 				value matches {
 					1|[local::at0015],
 					0|[local::at0014]
+				}
+			}
+			ELEMENT[at0016] occurrences matches {0..1} matches {    -- Hvilke typer(r) komplikasjoner har du hatt?
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0017,    -- Infeksjon i den opererte hoften
+							at0018,    -- Blodpropp i benet
+							at0019,    -- Blodpropp i lungen
+							at0020,    -- Hofteprotesen ut av ledd
+							at0021,    -- Benlengdeforskjell
+							at0022,    -- Innlagt sykehus i mellomtiden
+							at0023]    -- Annet
+						}
+					}
 				}
 			}
 		}
@@ -96,6 +112,39 @@ ontology
 				>
 				["at0015"] = <
 					text = <"Ja">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Hvilke typer(r) komplikasjoner har du hatt?">
+					description = <"">
+					comment = <"Hvis du velger \"Annet\" fritekstfelt">
+				>
+				["at0017"] = <
+					text = <"Infeksjon i den opererte hoften">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Blodpropp i benet">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Blodpropp i lungen">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Hofteprotesen ut av ledd">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Benlengdeforskjell">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Innlagt sykehus i mellomtiden">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Annet">
 					description = <"">
 				>
 			>
