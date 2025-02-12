@@ -1,0 +1,128 @@
+archetype (adl_version=1.4; uid=508c43ba-59a6-4816-8655-b353b7694377)
+	openEHR-EHR-CLUSTER.hofteprosedyre_hn.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::nb]>
+
+description
+	original_author = <
+		["date"] = <"2025-02-12">
+		["name"] = <"Jonas Lyshaug">
+		["organisation"] = <"HN IKT">
+		["email"] = <"jonas.nils.erik.lyshaug@hnikt.no">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["nb"] = <
+			language = <[ISO_639-1::nb]>
+			purpose = <"En arketyper som definerer felter knyttet til faktiske inngrepet som er utført. ">
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"246db57f1126e37ee98ef150193345a8">
+		["build_uid"] = <"291f3d48-1caa-359c-a54d-3700421ceb8f">
+	>
+
+definition
+	CLUSTER[at0000] matches {    -- hofteprosedyre_hn
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Operasjonsdato
+				value matches {
+					DV_DATE_TIME matches {*}
+				}
+			}
+			ELEMENT[at0002] occurrences matches {0..1} matches {    -- Type hofteprotese som er satt inn?
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0003,    -- Første gangs hofteprotese i den aktuelle hoften
+							at0004]    -- Byttet ut hofteprotese (hadde protese fra før)
+						}
+					}
+				}
+			}
+			ELEMENT[at0005] occurrences matches {0..1} matches {    -- Hvilken hofte ble du operert for/kontrolleres du for nå?
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0006,    -- Høyre
+							at0007]    -- Venstre
+						}
+					}
+				}
+			}
+			ELEMENT[at0008] occurrences matches {0..1} matches {    -- Operasjonsområdet/ sår/ arr
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0009,    -- Operasjonsområdet/ arret ser fint ut
+							at0010]    -- Operasjonsområdet/ arret ser ikke fint ut
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["nb"] = <
+			items = <
+				["at0000"] = <
+					text = <"hofteprosedyre_hn">
+					description = <"hofteprosedyre_hn">
+				>
+				["at0001"] = <
+					text = <"Operasjonsdato">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Type hofteprotese som er satt inn?">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Første gangs hofteprotese i den aktuelle hoften">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Byttet ut hofteprotese (hadde protese fra før)">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Hvilken hofte ble du operert for/kontrolleres du for nå?">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Høyre">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Venstre">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Operasjonsområdet/ sår/ arr">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Operasjonsområdet/ arret ser fint ut">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Operasjonsområdet/ arret ser ikke fint ut">
+					description = <"">
+				>
+			>
+		>
+	>
