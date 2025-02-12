@@ -26,19 +26,29 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f45e329e08ff54425868f1d7a8430275">
+		["MD5-CAM-1.0.1"] = <"87065c6f138b2028a1d900ad0fcf7b35">
 		["build_uid"] = <"08f0778f-ba93-3de2-802a-45f3a3269dff">
 	>
 
 definition
 	CLUSTER[at0000] matches {    -- hofteprosedyre_pasientopplevelse_hn
 		items cardinality matches {1..*; unordered} matches {
-			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Fornøydhet
+			CLUSTER[at0010] occurrences matches {0..1} matches {    -- Fornøydhet
+				items cardinality matches {1..*; unordered} matches {
+					ELEMENT[at0001] occurrences matches {0..1} matches {    -- Er du fornøyd etter inngrepet?
+						value matches {
+							1|[local::at0006],
+							2|[local::at0007],
+							3|[local::at0008],
+							4|[local::at0009]
+						}
+					}
+				}
+			}
+			ELEMENT[at0011] occurrences matches {0..1} matches {    -- Har du hatt en eller flere komplikasjoner i forbindelse med eller etter inngrepet?
 				value matches {
-					1|[local::at0006],
-					2|[local::at0007],
-					3|[local::at0008],
-					4|[local::at0009]
+					1|[local::at0015],
+					0|[local::at0014]
 				}
 			}
 		}
@@ -53,7 +63,7 @@ ontology
 					description = <"hofteprosedyre_pasientopplevelse_hn">
 				>
 				["at0001"] = <
-					text = <"Fornøydhet">
+					text = <"Er du fornøyd etter inngrepet?">
 					description = <"">
 				>
 				["at0006"] = <
@@ -70,6 +80,22 @@ ontology
 				>
 				["at0009"] = <
 					text = <"Veldig misfornøyd">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Fornøydhet">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Har du hatt en eller flere komplikasjoner i forbindelse med eller etter inngrepet?">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Nei">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Ja">
 					description = <"">
 				>
 			>
