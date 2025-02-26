@@ -45,7 +45,11 @@ http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
+			purpose = <"EQ-5D-5L er et standardisert mål på helsestatus utviklet av EuroQol Group for å gi et enkelt, generisk mål på helse for klinisk og økonomisk vurdering.">
+			keywords = <"status","lign">
 			copyright = <"© openEHR Foundation">
+			use = <"Gjelder for et bredt spekter av helsetilstander og behandlinger, gir en enkel beskrivende profil og en enkelt indeksverdi for helsestatus som kan brukes i klinisk og økonomisk evaluering av helsevesenet så vel som i befolkningshelseundersøkelser. Ytterligere informasjon er tilgjengelig i brukerveiledningen http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D-5L_UserGuide_2015.pdf">
+			misuse = <"Brukere av arketypen EQ-5D-5L må sørge for at de overholder vilkårene for bruk av EuroQol Research Foundation som eier opphavsretten til den originale vurderingen http://www.euroqol.org/eq-5d-products/how-to-obtain-eq-5d.html">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
@@ -68,7 +72,7 @@ quality of life. Health Policy 16(3):199-208.">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a21b4f39b5a8a51069300f875a56439e">
+		["MD5-CAM-1.0.1"] = <"db4959e9856797ed8e53ffa9099990be">
 		["build_uid"] = <"86f191d7-6048-4808-b7a8-c34d44d693bb">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -453,149 +457,149 @@ ontology
 		["nb"] = <
 			items = <
 				["at0000"] = <
-					text = <"*EQ-5D-5L Health status (en)">
-					description = <"*A standardised measure of health status to provide a simple, generic measure of health for clinical and economic appraisal. (en)">
+					text = <"EQ-5D-5L Helsestatus">
+					description = <"Et standardisert mål på helsestatus for å gi et enkelt, generisk mål på helse for klinisk og økonomisk vurdering.">
 				>
 				["at0001"] = <
-					text = <"Event Series">
-					description = <"@ internal @">
+					text = <"Eventserie">
+					description = <"@ intern @">
 				>
 				["at0002"] = <
-					text = <"*Any event (en)">
+					text = <"Enhver hendelse">
 					description = <"*">
 				>
 				["at0003"] = <
-					text = <"Tree">
-					description = <"@ internal @">
+					text = <"Tre">
+					description = <"@ intern @">
 				>
 				["at0004"] = <
-					text = <"*Mobility (en)">
-					description = <"*Issues with mobility. (en)">
+					text = <"Mobilitet">
+					description = <"Problemer med mobilitet.">
 				>
 				["at0005"] = <
-					text = <"*No problems (en)">
+					text = <"Ingen problemer">
 					description = <"*">
 				>
 				["at0006"] = <
-					text = <"*Self-care (en)">
-					description = <"*Issues with self-care. (en)">
+					text = <"Egenomsorg">
+					description = <"Problemer med egenomsorg.">
 				>
 				["at0007"] = <
-					text = <"*Usual activities (en)">
-					description = <"*Issues with usual activities. (en)">
-					comment = <"*e.g. work, study, housework, family or leisure activities. (en)">
+					text = <"Vanlige aktiviteter">
+					description = <"Problemer med vanlige aktiviteter.">
+					comment = <"f.eks arbeid, studier, husarbeid, familie- eller fritidsaktiviteter.">
 				>
 				["at0008"] = <
-					text = <"*Pain/discomfort (en)">
-					description = <"*Issues of pain or discomfort. (en)">
+					text = <"Smerter/ubehag">
+					description = <"Problemer med smerte eller ubehag.">
 				>
 				["at0009"] = <
-					text = <"*Anxiety/depression (en)">
-					description = <"*Issue with anxiety or depression. (en)">
+					text = <"Angst/depresjon">
+					description = <"Problem med angst eller depresjon.">
 				>
 				["at0010"] = <
-					text = <"*Overall health (en)">
-					description = <"*A self-assessment of overall health on a scale from 0 to 100 (en)">
+					text = <"Generell helse">
+					description = <"En egenvurdering av generell helse på en skala fra 0 til 100">
 				>
 				["at0011"] = <
-					text = <"*State (en)">
-					description = <"*A 5-digit code formed from the scores of each component, with 9 indicating a missing value (en)">
-					comment = <"*e.g. '21491' (en)">
+					text = <"Tilstand">
+					description = <"En 5-sifret kode dannet av poengsummene til hver komponent, med 9 som indikerer en manglende verdi">
+					comment = <"f.eks '21491'">
 				>
 				["at0012"] = <
-					text = <"*Slight problems (en)">
+					text = <"Små problemer">
 					description = <"*">
 				>
 				["at0013"] = <
-					text = <"*Moderate problems (en)">
+					text = <"Moderate problemer">
 					description = <"*">
 				>
 				["at0014"] = <
-					text = <"*Severe problems (en)">
+					text = <"Alvorlige problemer">
 					description = <"*">
 				>
 				["at0015"] = <
-					text = <"*Unable to walk about. (en)">
+					text = <"Klarer ikke å gå rundt.">
 					description = <"*">
 				>
 				["at0016"] = <
-					text = <"*No problems (en)">
+					text = <"Ingen problemer">
 					description = <"*">
 				>
 				["at0017"] = <
-					text = <"*Slight problems (en)">
+					text = <"Små problemer">
 					description = <"*">
 				>
 				["at0018"] = <
-					text = <"*Moderate problems (en)">
+					text = <"Moderate problemer">
 					description = <"*">
 				>
 				["at0019"] = <
-					text = <"*Severe problems (en)">
+					text = <"Alvorlige problemer">
 					description = <"*">
 				>
 				["at0020"] = <
-					text = <"*Unable to wash or dress (en)">
+					text = <"Kan ikke vaske eller kle seg">
 					description = <"*">
 				>
 				["at0021"] = <
-					text = <"*No problems (en)">
+					text = <"Ingen problemer">
 					description = <"*">
 				>
 				["at0022"] = <
-					text = <"*Slight problems (en)">
+					text = <"Små problemer">
 					description = <"*">
 				>
 				["at0023"] = <
-					text = <"*Moderate problems (en)">
+					text = <"Moderate problemer">
 					description = <"*">
 				>
 				["at0024"] = <
-					text = <"*Severe problems (en)">
+					text = <"Alvorlige problemer">
 					description = <"*">
 				>
 				["at0025"] = <
-					text = <"*Unable to do my usual activities (en)">
+					text = <"Kan ikke gjøre mine vanlige aktiviteter">
 					description = <"*">
 				>
 				["at0026"] = <
-					text = <"*No pain or discomfort (en)">
+					text = <"Ingen smerte eller ubehag">
 					description = <"*">
 				>
 				["at0027"] = <
-					text = <"*Slight pain or discomfort (en)">
+					text = <"Lett smerte eller ubehag">
 					description = <"*">
 				>
 				["at0028"] = <
-					text = <"*Moderate pain or discomfort (en)">
+					text = <"Moderat smerte eller ubehag">
 					description = <"*">
 				>
 				["at0029"] = <
-					text = <"*Severe pain or discomfort (en)">
+					text = <"Alvorlig smerte eller ubehag">
 					description = <"*">
 				>
 				["at0030"] = <
-					text = <"*Extreme pain or discomfort (en)">
+					text = <"Ekstrem smerte eller ubehag">
 					description = <"*">
 				>
 				["at0031"] = <
-					text = <"*No anxiety or depression (en)">
+					text = <"Ingen angst eller depresjon">
 					description = <"*">
 				>
 				["at0032"] = <
-					text = <"*Slight anxiety or depression (en)">
+					text = <"Lett angst eller depresjon">
 					description = <"*">
 				>
 				["at0033"] = <
-					text = <"*Moderate anxiety or depression (en)">
+					text = <"Moderat angst eller depresjon">
 					description = <"*">
 				>
 				["at0034"] = <
-					text = <"*Severe anxiety or depression (en)">
+					text = <"Alvorlig angst eller depresjon">
 					description = <"*">
 				>
 				["at0035"] = <
-					text = <"*Extreme anxiety or depression (en)">
+					text = <"Ekstrem angst eller depresjon">
 					description = <"*">
 				>
 			>
