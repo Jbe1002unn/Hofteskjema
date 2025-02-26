@@ -46,7 +46,7 @@ http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"EQ-5D-5L er et standardisert mål på helsestatus utviklet av EuroQol Group for å gi et enkelt, generisk mål på helse for klinisk og økonomisk vurdering.">
-			keywords = <"status","lign">
+			keywords = <"status","EQ">
 			copyright = <"© openEHR Foundation">
 			use = <"Gjelder for et bredt spekter av helsetilstander og behandlinger, gir en enkel beskrivende profil og en enkelt indeksverdi for helsestatus som kan brukes i klinisk og økonomisk evaluering av helsevesenet så vel som i befolkningshelseundersøkelser. Ytterligere informasjon er tilgjengelig i brukerveiledningen http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D-5L_UserGuide_2015.pdf">
 			misuse = <"Brukere av arketypen EQ-5D-5L må sørge for at de overholder vilkårene for bruk av EuroQol Research Foundation som eier opphavsretten til den originale vurderingen http://www.euroqol.org/eq-5d-products/how-to-obtain-eq-5d.html">
@@ -72,7 +72,7 @@ quality of life. Health Policy 16(3):199-208.">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"db4959e9856797ed8e53ffa9099990be">
+		["MD5-CAM-1.0.1"] = <"f25e7449b2bafbefcaeeeecee4c576c7">
 		["build_uid"] = <"86f191d7-6048-4808-b7a8-c34d44d693bb">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -465,8 +465,8 @@ ontology
 					description = <"@ intern @">
 				>
 				["at0002"] = <
-					text = <"Enhver hendelse">
-					description = <"*">
+					text = <"Uspesifisert hendelse">
+					description = <"">
 				>
 				["at0003"] = <
 					text = <"Tre">
