@@ -39,8 +39,8 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"367e46d3ad073e160c5fe0f7309b2686">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
-		["MD5-CAM-1.0.1"] = <"a3e92e750b5d481ff8433cb0f6ceb171">
 	>
 
 definition
@@ -99,11 +99,6 @@ definition
 									}
 									CLUSTER[at0005] occurrences matches {0..1} matches {    -- Function, daily living
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0037] occurrences matches {0..1} matches {    -- The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.
-												value matches {
-													DV_TEXT matches {*}
-												}
-											}
 											ELEMENT[at0044] occurrences matches {0..1} matches {    -- 5. Rising from sitting
 												value matches {
 													0|[local::at0045],
@@ -235,7 +230,7 @@ ontology
 				>
 				["at0005"] = <
 					text = <"Function, daily living">
-					description = <"">
+					description = <"The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
 				>
 				["at0006"] = <
 					text = <"Quality of Life">
@@ -335,10 +330,6 @@ ontology
 				>
 				["at0036"] = <
 					text = <"Extreme">
-					description = <"">
-				>
-				["at0037"] = <
-					text = <"The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
 					description = <"">
 				>
 				["at0038"] = <
@@ -579,7 +570,7 @@ ontology
 				>
 				["at0005"] = <
 					text = <"*Function, daily living (en)">
-					description = <"">
+					description = <"*The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip. (en)">
 				>
 				["at0006"] = <
 					text = <"*Quality of Life (en)">
@@ -679,10 +670,6 @@ ontology
 				>
 				["at0036"] = <
 					text = <"*Extreme (en)">
-					description = <"">
-				>
-				["at0037"] = <
-					text = <"*The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip. (en)">
 					description = <"">
 				>
 				["at0038"] = <
