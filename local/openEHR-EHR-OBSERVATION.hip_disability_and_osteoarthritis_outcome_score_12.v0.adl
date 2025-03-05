@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"52d599eea0e00ab910cbf361d57252b6">
+		["MD5-CAM-1.0.1"] = <"95f40661c135d79e539f14011ea917de">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
 	>
 
@@ -77,6 +77,11 @@ definition
 													5|[local::at0023]
 												}
 											}
+											ELEMENT[at0096] occurrences matches {0..1} matches {    -- Pain score
+												value matches {
+													DV_COUNT matches {*}
+												}
+											}
 										}
 									}
 									CLUSTER[at0005] occurrences matches {0..1} matches {    -- Function, daily living
@@ -122,6 +127,11 @@ definition
 													5|[local::at0061]
 												}
 											}
+											ELEMENT[at0097] occurrences matches {0..1} matches {    -- Function Score
+												value matches {
+													DV_COUNT matches {*}
+												}
+											}
 										}
 									}
 									CLUSTER[at0006] occurrences matches {0..1} matches {    -- Quality of Life
@@ -160,6 +170,11 @@ definition
 													3|[local::at0090],
 													4|[local::at0091],
 													5|[local::at0092]
+												}
+											}
+											ELEMENT[at0098] occurrences matches {0..1} matches {    -- Quality of Life Score
+												value matches {
+													DV_COUNT matches {*}
 												}
 											}
 										}
@@ -511,6 +526,18 @@ ontology
 				>
 				["at0094"] = <
 					text = <"Total score">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Pain score">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"Function Score">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"Quality of Life Score">
 					description = <"">
 				>
 			>
