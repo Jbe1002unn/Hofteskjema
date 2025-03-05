@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"95f40661c135d79e539f14011ea917de">
+		["MD5-CAM-1.0.1"] = <"6e2266c3f92f6773949bdec39928ce3b">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
 	>
 
@@ -52,29 +52,29 @@ definition
 											}
 											ELEMENT[at0025] occurrences matches {0..1} matches {    -- 2. Walking on a flat surface
 												value matches {
-													1|[local::at0026],
-													2|[local::at0027],
-													3|[local::at0028],
-													4|[local::at0029],
-													5|[local::at0030]
+													0|[local::at0026],
+													1|[local::at0027],
+													2|[local::at0028],
+													3|[local::at0029],
+													4|[local::at0030]
 												}
 											}
 											ELEMENT[at0031] occurrences matches {0..1} matches {    -- 3. Going up or down stairs
 												value matches {
-													1|[local::at0032],
-													2|[local::at0033],
-													3|[local::at0034],
-													4|[local::at0035],
-													5|[local::at0036]
+													0|[local::at0032],
+													1|[local::at0033],
+													2|[local::at0034],
+													3|[local::at0035],
+													4|[local::at0036]
 												}
 											}
 											ELEMENT[at0018] occurrences matches {0..1} matches {    -- 4. Sitting or lying
 												value matches {
-													1|[local::at0019],
-													2|[local::at0020],
-													3|[local::at0021],
-													4|[local::at0022],
-													5|[local::at0023]
+													0|[local::at0019],
+													1|[local::at0020],
+													2|[local::at0021],
+													3|[local::at0022],
+													4|[local::at0023]
 												}
 											}
 											ELEMENT[at0096] occurrences matches {0..1} matches {    -- Pain score
