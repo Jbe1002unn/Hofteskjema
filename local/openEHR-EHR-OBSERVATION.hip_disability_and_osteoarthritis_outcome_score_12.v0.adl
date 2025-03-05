@@ -16,19 +16,21 @@ language
 
 description
 	original_author = <
+		["date"] = <"2025-03-05">
 		["name"] = <"Jonas Lyshaug">
 		["organisation"] = <"HN IKT">
 		["email"] = <"Jonas.nils.erik.lyshaug@hnikt.no">
-		["date"] = <"2025-03-05">
 	>
 	lifecycle_state = <"unmanaged">
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
+			keywords = <"*Hip, HOOS-12 (en)", ...>
 			copyright = <"© openEHR Foundation">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
+			keywords = <"Hip, HOOS-12", ...>
 		>
 	>
 	other_details = <
@@ -37,8 +39,8 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"2e0cf39aaecdf1c5b40b306cf1c3b0ce">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
+		["MD5-CAM-1.0.1"] = <"a3e92e750b5d481ff8433cb0f6ceb171">
 	>
 
 definition
@@ -147,15 +149,6 @@ definition
 									}
 									CLUSTER[at0006] occurrences matches {0..1} matches {    -- Quality of Life
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0074] occurrences matches {0..1} matches {    -- 10. Have you modified your life style to avoid activities potentially damaging to your hip?
-												value matches {
-													0|[local::at0075],
-													1|[local::at0076],
-													2|[local::at0077],
-													3|[local::at0078],
-													4|[local::at0079]
-												}
-											}
 											ELEMENT[at0068] occurrences matches {0..1} matches {    -- 9. How often are you aware of your hip problem
 												value matches {
 													0|[local::at0069],
@@ -163,6 +156,15 @@ definition
 													2|[local::at0071],
 													3|[local::at0072],
 													4|[local::at0073]
+												}
+											}
+											ELEMENT[at0074] occurrences matches {0..1} matches {    -- 10. Have you modified your life style to avoid activities potentially damaging to your hip?
+												value matches {
+													0|[local::at0075],
+													1|[local::at0076],
+													2|[local::at0077],
+													3|[local::at0078],
+													4|[local::at0079]
 												}
 											}
 											ELEMENT[at0081] occurrences matches {0..1} matches {    -- 11. How much are you troubled with lack of confidence in your hip?
