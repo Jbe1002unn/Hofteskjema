@@ -24,7 +24,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "1.0.2",
       "build_uid" : "053fc19f-5a94-49c5-a2ee-eb5c6b03c42c",
-      "MD5-CAM-1.0.1" : "d2327e9d5ea61155e8600ce51efdf1e2",
+      "MD5-CAM-1.0.1" : "c1c14f4760f45b9b426bb8b1c05461f0",
       "PARENT:MD5-CAM-1.0.1" : "BBA2C8A4A40921B9CD67FB733F13FBBF"
     },
     "details" : {
@@ -272,15 +272,7 @@
     "annotations" : {
       "@type" : "RESOURCE_ANNOTATIONS",
       "documentation" : {
-        "en" : {
-          "/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0007.1]" : {
-            "0" : "0",
-            "1" : "6.25",
-            "2" : "12.5",
-            "3" : "18.75",
-            "4" : "25"
-          }
-        }
+        "en" : { }
       }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.hip_disability_and_osteoarthritis_outcome_score_12.v0",
