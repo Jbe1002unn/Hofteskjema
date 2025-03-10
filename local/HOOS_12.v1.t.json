@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.1",
+      "sem_ver" : "1.0.2",
       "build_uid" : "053fc19f-5a94-49c5-a2ee-eb5c6b03c42c",
-      "MD5-CAM-1.0.1" : "f78ea9e319001f5ce0be2f812d1bd2a6",
+      "MD5-CAM-1.0.1" : "d2327e9d5ea61155e8600ce51efdf1e2",
       "PARENT:MD5-CAM-1.0.1" : "BBA2C8A4A40921B9CD67FB733F13FBBF"
     },
     "details" : {
@@ -269,6 +269,20 @@
         }
       }
     },
+    "annotations" : {
+      "@type" : "RESOURCE_ANNOTATIONS",
+      "documentation" : {
+        "en" : {
+          "/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0007.1]" : {
+            "0" : "0",
+            "1" : "6.25",
+            "2" : "12.5",
+            "3" : "18.75",
+            "4" : "25"
+          }
+        }
+      }
+    },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.hip_disability_and_osteoarthritis_outcome_score_12.v0",
     "differential" : true,
     "archetypeId" : {
@@ -304,6 +318,22 @@
                     "@type" : "C_ATTRIBUTE",
                     "rmAttributeName" : "items",
                     "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "CLUSTER",
+                      "nodeId" : "at0004",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "items",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0007.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
                       "nodeId" : "at0005.1",
