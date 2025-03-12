@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7295e001588c7783055346f5820665d4">
+		["MD5-CAM-1.0.1"] = <"266dd72f574b4eb8586742a6da951eb9">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 	>
 
@@ -37,11 +37,44 @@ definition
 				events cardinality matches {1..*; unordered} matches {
 					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
 						data matches {
-							ITEM_TREE[at0003] matches {*}    -- Tree
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- S1. Do you feel grinding, hear clicking or any other type of noise from you hip?
+										value matches {
+											0|[local::at0012],
+											1|[local::at0013],
+											2|[local::at0014],
+											3|[local::at0015],
+											4|[local::at0016]
+										}
+									}
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- S1. Do you feel grinding, hear clicking or any other type of noise from you hip?
+										value matches {
+											0|[local::at0024],
+											1|[local::at0025],
+											2|[local::at0026],
+											3|[local::at0027],
+											4|[local::at0028]
+										}
+									}
+									ELEMENT[at0005] occurrences matches {0..1} matches {    -- S2. Difficulties spreading legs wide apart.
+										value matches {
+											0|[local::at0006],
+											1|[local::at0007],
+											2|[local::at0008],
+											3|[local::at0009],
+											4|[local::at0010]
+										}
+									}
+								}
+							}
 						}
 					}
 				}
 			}
+		}
+		protocol matches {
+			ITEM_TREE[at0004] matches {*}    -- Item tree
 		}
 	}
 
@@ -64,6 +97,82 @@ ontology
 				["at0003"] = <
 					text = <"Tree">
 					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0005"] = <
+					text = <"S2. Difficulties spreading legs wide apart.">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Never">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Rarely">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Often">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"S1. Do you feel grinding, hear clicking or any other type of noise from you hip?">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Never">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Rarely">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Often">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"S1. Do you feel grinding, hear clicking or any other type of noise from you hip?">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Never">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Rarely">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Often">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Always">
+					description = <"">
 				>
 			>
 		>
