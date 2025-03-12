@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8406b5abac2ef68414a9ba470ebe86cb">
+		["MD5-CAM-1.0.1"] = <"187cfce372f4668b8d7b16e85b8b9052">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 	>
 
@@ -1317,23 +1317,23 @@ ontology
 					description = <"">
 				>
 				["at0232"] = <
-					text = <"None">
+					text = <"Never">
 					description = <"">
 				>
 				["at0233"] = <
-					text = <"Mild">
+					text = <"Monthly">
 					description = <"">
 				>
 				["at0234"] = <
-					text = <"Moderate">
+					text = <"Weekly">
 					description = <"">
 				>
 				["at0235"] = <
-					text = <"Severe">
+					text = <"Daily">
 					description = <"">
 				>
 				["at0236"] = <
-					text = <"Extreme">
+					text = <"Constantly">
 					description = <"">
 				>
 				["at0237"] = <
@@ -1341,23 +1341,23 @@ ontology
 					description = <"">
 				>
 				["at0238"] = <
-					text = <"None">
+					text = <"Not at all">
 					description = <"">
 				>
 				["at0239"] = <
-					text = <"Mild">
+					text = <"Mildly">
 					description = <"">
 				>
 				["at0240"] = <
-					text = <"Moderate">
+					text = <"Moderately">
 					description = <"">
 				>
 				["at0241"] = <
-					text = <"Severe">
+					text = <"Severely">
 					description = <"">
 				>
 				["at0242"] = <
-					text = <"Extreme">
+					text = <"Extremely">
 					description = <"">
 				>
 				["at0243"] = <
@@ -1365,23 +1365,23 @@ ontology
 					description = <"">
 				>
 				["at0244"] = <
-					text = <"None">
+					text = <"Not at all">
 					description = <"">
 				>
 				["at0245"] = <
-					text = <"Mild">
+					text = <"Mildly">
 					description = <"">
 				>
 				["at0246"] = <
-					text = <"Moderate">
+					text = <"Moderately">
 					description = <"">
 				>
 				["at0247"] = <
-					text = <"Severe">
+					text = <"Severely">
 					description = <"">
 				>
 				["at0248"] = <
-					text = <"Extreme">
+					text = <"Extremely">
 					description = <"">
 				>
 				["at0249"] = <
