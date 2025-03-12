@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4b0ad88e4c63b352f0ebad36484c6f77">
+		["MD5-CAM-1.0.1"] = <"8406b5abac2ef68414a9ba470ebe86cb">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 	>
 
@@ -1421,6 +1421,8 @@ ontology
 				["at0257"] = <
 					text = <"HOOS Score:">
 					description = <"">
+					comment = <"* Calculation every answer worth All question
+0=0%-1=0,625%-2=1,25%-3=1,875%-4=2,5%.">
 				>
 			>
 		>
