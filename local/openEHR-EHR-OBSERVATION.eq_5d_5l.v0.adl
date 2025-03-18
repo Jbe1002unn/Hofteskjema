@@ -68,11 +68,13 @@ http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
 		["references"] = <"The EuroQol Group (1990). EuroQol-a new facility for the measurement of health-related
-quality of life. Health Policy 16(3):199-208.">
+quality of life. Health Policy 16(3):199-208.
+
+Norway (Norwegian)© 2011 EuroQol Group. EQ-5D™ is a trade mark of the EuroQol Group">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f25e7449b2bafbefcaeeeecee4c576c7">
+		["MD5-CAM-1.0.1"] = <"784003ef6634c80ecf5d4ca32fb42fef">
 		["build_uid"] = <"86f191d7-6048-4808-b7a8-c34d44d693bb">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -473,28 +475,28 @@ ontology
 					description = <"@ intern @">
 				>
 				["at0004"] = <
-					text = <"Mobilitet">
+					text = <"GANGE">
 					description = <"Problemer med mobilitet.">
 				>
 				["at0005"] = <
-					text = <"Ingen problemer">
+					text = <"Jeg har ingen problemer med å gå omkring">
 					description = <"*">
 				>
 				["at0006"] = <
-					text = <"Egenomsorg">
+					text = <"PERSONLIG STELL">
 					description = <"Problemer med egenomsorg.">
 				>
 				["at0007"] = <
-					text = <"Vanlige aktiviteter">
+					text = <"VANLIGE GJØREMÅL (f.eks. arbeid, studier, husarbeid, familie- eller fritidsaktiviteter)">
 					description = <"Problemer med vanlige aktiviteter.">
 					comment = <"f.eks arbeid, studier, husarbeid, familie- eller fritidsaktiviteter.">
 				>
 				["at0008"] = <
-					text = <"Smerter/ubehag">
+					text = <"SMERTER/UBEHAG">
 					description = <"Problemer med smerte eller ubehag.">
 				>
 				["at0009"] = <
-					text = <"Angst/depresjon">
+					text = <"ANGEST/DEPRESJON">
 					description = <"Problem med angst eller depresjon.">
 				>
 				["at0010"] = <
@@ -507,99 +509,99 @@ ontology
 					comment = <"f.eks '21491'">
 				>
 				["at0012"] = <
-					text = <"Små problemer">
+					text = <"Jeg har litt problemer med å gå omkring">
 					description = <"*">
 				>
 				["at0013"] = <
-					text = <"Moderate problemer">
+					text = <"Jeg har middels store problemer med å gå omkring">
 					description = <"*">
 				>
 				["at0014"] = <
-					text = <"Alvorlige problemer">
+					text = <"Jeg har store problemer med å gå omkring">
 					description = <"*">
 				>
 				["at0015"] = <
-					text = <"Klarer ikke å gå rundt.">
+					text = <"Jeg er ute av stand til å gå omkring">
 					description = <"*">
 				>
 				["at0016"] = <
-					text = <"Ingen problemer">
+					text = <"Jeg har ingen problemer med å vaske meg eller kle meg">
 					description = <"*">
 				>
 				["at0017"] = <
-					text = <"Små problemer">
+					text = <"Jeg har litt problemer med å vaske meg eller kle meg">
 					description = <"*">
 				>
 				["at0018"] = <
-					text = <"Moderate problemer">
+					text = <"Jeg har middels store problemer med å vaske meg eller kle meg">
 					description = <"*">
 				>
 				["at0019"] = <
-					text = <"Alvorlige problemer">
+					text = <"Jeg har store problemer med å vaske meg eller kle meg">
 					description = <"*">
 				>
 				["at0020"] = <
-					text = <"Kan ikke vaske eller kle seg">
+					text = <"Jeg er ute av stand til å vaske meg eller kle meg">
 					description = <"*">
 				>
 				["at0021"] = <
-					text = <"Ingen problemer">
+					text = <"Jeg har ingen problemer med å utføre mine vanlige gjøremål">
 					description = <"*">
 				>
 				["at0022"] = <
-					text = <"Små problemer">
+					text = <"Jeg har litt problemer med å utføre mine vanlige gjøremål">
 					description = <"*">
 				>
 				["at0023"] = <
-					text = <"Moderate problemer">
+					text = <"Jeg har middels store problemer med å utføre mine vanlige gjøremål">
 					description = <"*">
 				>
 				["at0024"] = <
-					text = <"Alvorlige problemer">
+					text = <"Jeg har store problemer med å utføre mine vanlige gjøremå">
 					description = <"*">
 				>
 				["at0025"] = <
-					text = <"Kan ikke gjøre mine vanlige aktiviteter">
+					text = <"Jeg er ute av stand til å utføre mine vanlige gjøremål">
 					description = <"*">
 				>
 				["at0026"] = <
-					text = <"Ingen smerte eller ubehag">
+					text = <"Jeg har verken smerter eller ubehag">
 					description = <"*">
 				>
 				["at0027"] = <
-					text = <"Lett smerte eller ubehag">
+					text = <"Jeg har litt smerter eller ubehag">
 					description = <"*">
 				>
 				["at0028"] = <
-					text = <"Moderat smerte eller ubehag">
+					text = <"Jeg har middels sterke smerter eller ubehag">
 					description = <"*">
 				>
 				["at0029"] = <
-					text = <"Alvorlig smerte eller ubehag">
+					text = <"Jeg har sterke smerter eller ubehag">
 					description = <"*">
 				>
 				["at0030"] = <
-					text = <"Ekstrem smerte eller ubehag">
+					text = <"Jeg har svært sterke smerter eller ubehag">
 					description = <"*">
 				>
 				["at0031"] = <
-					text = <"Ingen angst eller depresjon">
+					text = <"Jeg er verken engstelig eller deprimert">
 					description = <"*">
 				>
 				["at0032"] = <
-					text = <"Lett angst eller depresjon">
+					text = <"Jeg er litt engstelig eller deprimert">
 					description = <"*">
 				>
 				["at0033"] = <
-					text = <"Moderat angst eller depresjon">
+					text = <"Jeg er middels engstelig eller deprimert">
 					description = <"*">
 				>
 				["at0034"] = <
-					text = <"Alvorlig angst eller depresjon">
+					text = <"Jeg er svært engstelig eller deprimert">
 					description = <"*">
 				>
 				["at0035"] = <
-					text = <"Ekstrem angst eller depresjon">
+					text = <"Jeg er ekstremt engstelig eller deprimert">
 					description = <"*">
 				>
 			>
