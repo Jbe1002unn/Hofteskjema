@@ -15,6 +15,7 @@ description
 		["email"] = <"Jonas.nils.erik.lyshaug@hnikt.no">
 	>
 	lifecycle_state = <"unmanaged">
+	other_contributors = <"June Marie Nepstad Knappskog", ...>
 	details = <
 		["en"] = <
 			language = <[ISO_639-1::en]>
@@ -29,7 +30,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"05a67029e09ee5d9e660e9651a49ec56">
+		["MD5-CAM-1.0.1"] = <"71beea06ba3c8e33e4be1a78d0c7da9b">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 		["references"] = <"Klassbo M, Larsson E, Mannevik E. Hip disability and osteoarthritis outcome score. An extension of the Western Ontario and McMaster Universities Osteoarthritis Index. Scand J Rheumatol. 2003;32(1):46-51
 
@@ -45,7 +46,7 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0011] occurrences matches {0..1} matches {    -- S1. Do you feel grinding, hear clicking or any other type of noise from you hip?
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- S1. Do you feel grinding, hear clicking or any other type of noise from your hip?
 										value matches {
 											0|[local::at0012],
 											1|[local::at0013],
@@ -430,7 +431,7 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0257] occurrences matches {0..1} matches {    -- HOOS Score:
+									ELEMENT[at0257] occurrences matches {0..1} matches {    -- Total score:
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -503,7 +504,7 @@ ontology
 					description = <"">
 				>
 				["at0011"] = <
-					text = <"S1. Do you feel grinding, hear clicking or any other type of noise from you hip?">
+					text = <"S1. Do you feel grinding, hear clicking or any other type of noise from your hip?">
 					description = <"Symptoms - These questions should be answered thinking of your hip symptoms during the last week.">
 				>
 				["at0012"] = <
@@ -600,7 +601,7 @@ ontology
 				>
 				["at0047"] = <
 					text = <"Symptoms + Stiffness subtotal">
-					description = <"">
+					description = <"The total for the Symptoms + Stiffness subscore.">
 					comment = <"* Calculation every answer worth S1-S5
 0=0%-1=5%-2=10%-3=15%-4=20%.">
 				>
@@ -846,7 +847,7 @@ ontology
 				>
 				["at0109"] = <
 					text = <"Pain Subtotal">
-					description = <"">
+					description = <"The total for the Pain subscale.">
 					comment = <"* Calculation every answer worth P1-P10 0=0%-1=2,5%-2=5%-3=7,5%-4=10%.">
 				>
 				["at0110"] = <
@@ -1235,7 +1236,7 @@ ontology
 				>
 				["at0206"] = <
 					text = <"Function, daily living subtotal:">
-					description = <"">
+					description = <"The total for Function, daily living subscale.">
 					comment = <"* Calculation every answer worth A1-A17 0=0%-1=1,47%-2=2,94%-3=4,41%-4=5.88%.">
 				>
 				["at0207"] = <
@@ -1432,17 +1433,17 @@ ontology
 				>
 				["at0255"] = <
 					text = <"Function, sports and recreational activities subtotal:">
-					description = <"">
+					description = <"The total for the Function, sports and recreational activities subscale">
 					comment = <"* Calculation every answer worth SP1-SP4 0=0%-1=6,25%-2=12,5%-3=18,75%-4=25%.">
 				>
 				["at0256"] = <
 					text = <"Quality of life subtotal:">
-					description = <"">
+					description = <"The total for the Quality of life subscale.">
 					comment = <"* Calculation every answer worth Q1-Q4 0=0%-1=6,25%-2=12,5%-3=18,75%-4=25%.">
 				>
 				["at0257"] = <
-					text = <"HOOS Score:">
-					description = <"">
+					text = <"Total score:">
+					description = <"The total sum of each subscale total for the HOOS survey.">
 					comment = <"* Calculation every answer worth All question
 0=0%-1=0,625%-2=1,25%-3=1,875%-4=2,5%.">
 				>
