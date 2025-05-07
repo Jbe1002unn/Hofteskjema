@@ -18,6 +18,9 @@ description
 	details = <
 		["en"] = <
 			language = <[ISO_639-1::en]>
+			purpose = <"To record the results for each component parameter, subscale scores, total score for the HOOS survey.">
+			keywords = <"hip, function, disability,", ...>
+			use = <"Use to record the results for each component parameter, subscale scores, total score for the HOOS survey.">
 		>
 	>
 	other_details = <
@@ -26,12 +29,15 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"10e60adc87a1052cfd9bb391e5016d42">
+		["MD5-CAM-1.0.1"] = <"05a67029e09ee5d9e660e9651a49ec56">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
+		["references"] = <"Klassbo M, Larsson E, Mannevik E. Hip disability and osteoarthritis outcome score. An extension of the Western Ontario and McMaster Universities Osteoarthritis Index. Scand J Rheumatol. 2003;32(1):46-51
+
+Nilsdotter AK, Lohmander LS, Klassbo M, Roos EM. Hip Disability and Osteoarthritis Outcome Score (HOOS)- Validity and responsiveness in total hip replacement. BMC Musculoskeletal Disorders. 2003;4:10">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- HOOS
+	OBSERVATION[at0000] matches {    -- Hip Disability and Osteoarthritis Outcome Score (HOOS)
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -437,7 +443,14 @@ definition
 			}
 		}
 		protocol matches {
-			ITEM_TREE[at0004] matches {*}    -- Item tree
+			ITEM_TREE[at0004] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					allow_archetype CLUSTER[at0264] occurrences matches {0..*} matches {    -- Extension
+						include
+							archetype_id/value matches {/.*/}
+					}
+				}
+			}
 		}
 	}
 
@@ -446,8 +459,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"HOOS">
-					description = <"HOOS">
+					text = <"Hip Disability and Osteoarthritis Outcome Score (HOOS)">
+					description = <"An assesment tool to evaluate symptoms and functional limitations related to the hip.">
 				>
 				["at0001"] = <
 					text = <"History">
@@ -1456,6 +1469,11 @@ ontology
 				["at0263"] = <
 					text = <"Extreme">
 					description = <"">
+				>
+				["at0264"] = <
+					text = <"Extension">
+					description = <"Additional information required to extend the model with local content or to align with other reference models or formalisms.">
+					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
 				>
 			>
 		>
