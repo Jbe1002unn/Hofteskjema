@@ -35,7 +35,7 @@ Nilsdotter AK, Lohmander LS, Klassbo M, Roos EM. Hip Disability and Osteoarthrit
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"2af60c20437fb58acc2e7dd34e7fc0b9">
+		["MD5-CAM-1.0.1"] = <"3d52d727b7d24d2d202e6cf11fd4a6fa">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 	>
 
@@ -57,7 +57,7 @@ definition
 											4|[local::at0016]
 										}
 									}
-									ELEMENT[at0258] occurrences matches {0..1} matches {    -- S2. Difficulties spreading legs wide apart.
+									ELEMENT[at0258] occurrences matches {0..1} matches {    -- S2. Difficulties spreading legs wide apart
 										value matches {
 											0|[local::at0259],
 											1|[local::at0260],
@@ -346,7 +346,7 @@ definition
 											4|[local::at0205]
 										}
 									}
-									ELEMENT[at0206] occurrences matches {0..1} matches {    -- Function, daily living subtotal:
+									ELEMENT[at0206] occurrences matches {0..1} matches {    -- Function, daily living subtotal
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -387,7 +387,7 @@ definition
 											4|[local::at0230]
 										}
 									}
-									ELEMENT[at0255] occurrences matches {0..1} matches {    -- Function, sports and recreational activities subtotal:
+									ELEMENT[at0255] occurrences matches {0..1} matches {    -- Function, sports and recreational activities subtotal
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -428,12 +428,12 @@ definition
 											4|[local::at0254]
 										}
 									}
-									ELEMENT[at0256] occurrences matches {0..1} matches {    -- Quality of life subtotal:
+									ELEMENT[at0256] occurrences matches {0..1} matches {    -- Quality of life subtotal
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0257] occurrences matches {0..1} matches {    -- Total score:
+									ELEMENT[at0257] occurrences matches {0..1} matches {    -- Total score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -1237,7 +1237,7 @@ ontology
 					description = <"">
 				>
 				["at0206"] = <
-					text = <"Function, daily living subtotal:">
+					text = <"Function, daily living subtotal">
 					description = <"The total for Function, daily living subscale.">
 					comment = <"* Calculation every answer worth A1-A17 0=0%-1=1,47%-2=2,94%-3=4,41%-4=5.88%.">
 				>
@@ -1434,23 +1434,23 @@ ontology
 					description = <"">
 				>
 				["at0255"] = <
-					text = <"Function, sports and recreational activities subtotal:">
-					description = <"The total for the Function, sports and recreational activities subscale">
+					text = <"Function, sports and recreational activities subtotal">
+					description = <"The total for the Function, sports and recreational activities subscale.">
 					comment = <"* Calculation every answer worth SP1-SP4 0=0%-1=6,25%-2=12,5%-3=18,75%-4=25%.">
 				>
 				["at0256"] = <
-					text = <"Quality of life subtotal:">
+					text = <"Quality of life subtotal">
 					description = <"The total for the Quality of life subscale.">
 					comment = <"* Calculation every answer worth Q1-Q4 0=0%-1=6,25%-2=12,5%-3=18,75%-4=25%.">
 				>
 				["at0257"] = <
-					text = <"Total score:">
+					text = <"Total score">
 					description = <"The total sum of each subscale total for the HOOS survey.">
 					comment = <"* Calculation every answer worth All question
 0=0%-1=0,625%-2=1,25%-3=1,875%-4=2,5%.">
 				>
 				["at0258"] = <
-					text = <"S2. Difficulties spreading legs wide apart.">
+					text = <"S2. Difficulties spreading legs wide apart">
 					description = <"">
 				>
 				["at0259"] = <
