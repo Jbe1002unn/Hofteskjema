@@ -21,20 +21,22 @@ description
 			language = <[ISO_639-1::en]>
 			purpose = <"To record the results for each component parameter, subscale scores, total score for the HOOS survey.">
 			keywords = <"hip, function, disability,", ...>
-			use = <"Use to record the results for each component parameter, subscale scores, total score for the HOOS survey.">
+			use = <"Use to record the results for each component parameter, subscale scores, total score for the HOOS survey.
+
+While openEHR archetypes are all freely available under an open license, the specific content of this Hip Disability and Osteoarthritis Outcome Score archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners.">
 		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["original_namespace"] = <"org.openehr">
-		["original_publisher"] = <"openEHR Foundation">
-		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"71beea06ba3c8e33e4be1a78d0c7da9b">
-		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 		["references"] = <"Klassbo M, Larsson E, Mannevik E. Hip disability and osteoarthritis outcome score. An extension of the Western Ontario and McMaster Universities Osteoarthritis Index. Scand J Rheumatol. 2003;32(1):46-51
 
 Nilsdotter AK, Lohmander LS, Klassbo M, Roos EM. Hip Disability and Osteoarthritis Outcome Score (HOOS)- Validity and responsiveness in total hip replacement. BMC Musculoskeletal Disorders. 2003;4:10">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"2af60c20437fb58acc2e7dd34e7fc0b9">
+		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 	>
 
 definition
@@ -481,7 +483,7 @@ ontology
 				>
 				["at0005"] = <
 					text = <"P3. Bending your hip fully">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0006"] = <
 					text = <"None">
@@ -505,7 +507,7 @@ ontology
 				>
 				["at0011"] = <
 					text = <"S1. Do you feel grinding, hear clicking or any other type of noise from your hip?">
-					description = <"Symptoms - These questions should be answered thinking of your hip symptoms during the last week.">
+					description = <"">
 				>
 				["at0012"] = <
 					text = <"Never">
@@ -529,7 +531,7 @@ ontology
 				>
 				["at0029"] = <
 					text = <"S3. Difficulties to stride out when walking">
-					description = <"Symptoms - These questions should be answered thinking of your hip symptoms during the last week.">
+					description = <"">
 				>
 				["at0030"] = <
 					text = <"None">
@@ -553,7 +555,7 @@ ontology
 				>
 				["at0035"] = <
 					text = <"S4. How severe is your hip joint stiffness after first wakening in the morning?">
-					description = <"Stiffness - The following questions concern the amount of joint stiffness you have experienced during the last week in your hip. Stiffness is a sensation of restriction or slowness in the ease with which you move your hip joint.">
+					description = <"">
 				>
 				["at0036"] = <
 					text = <"None">
@@ -577,7 +579,7 @@ ontology
 				>
 				["at0041"] = <
 					text = <"S5. How severe is your hip stiffness after sitting, lying or resting later in the day?">
-					description = <"Stiffness - The following questions concern the amount of joint stiffness you have experienced during the last week in your hip. Stiffness is a sensation of restriction or slowness in the ease with which you move your hip joint.">
+					description = <"">
 				>
 				["at0042"] = <
 					text = <"None">
@@ -631,7 +633,7 @@ ontology
 				>
 				["at0055"] = <
 					text = <"P2. Straightening your hip fully">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0056"] = <
 					text = <"None">
@@ -655,7 +657,7 @@ ontology
 				>
 				["at0061"] = <
 					text = <"P4. Walking on flat surface">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0062"] = <
 					text = <"None">
@@ -679,7 +681,7 @@ ontology
 				>
 				["at0067"] = <
 					text = <"P5. Going up or down stairs">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0068"] = <
 					text = <"None">
@@ -703,7 +705,7 @@ ontology
 				>
 				["at0073"] = <
 					text = <"P6. At night while in bed">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0074"] = <
 					text = <"None">
@@ -727,7 +729,7 @@ ontology
 				>
 				["at0079"] = <
 					text = <"P7. Sitting or lying">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0080"] = <
 					text = <"None">
@@ -751,7 +753,7 @@ ontology
 				>
 				["at0085"] = <
 					text = <"P8. Standing upright">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0086"] = <
 					text = <"None">
@@ -775,7 +777,7 @@ ontology
 				>
 				["at0091"] = <
 					text = <"P9. Walking on a hard surface (asphalt, concrete, etc.)">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0092"] = <
 					text = <"None">
@@ -799,7 +801,7 @@ ontology
 				>
 				["at0097"] = <
 					text = <"P10. Walking on an uneven surface">
-					description = <"What amount of hip pain have you experienced the last week during the following activities?">
+					description = <"">
 				>
 				["at0098"] = <
 					text = <"None">
@@ -823,7 +825,7 @@ ontology
 				>
 				["at0103"] = <
 					text = <"A1. Descending stairs">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0104"] = <
 					text = <"None">
@@ -852,7 +854,7 @@ ontology
 				>
 				["at0110"] = <
 					text = <"A2. Ascending stairs">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0111"] = <
 					text = <"None">
@@ -876,7 +878,7 @@ ontology
 				>
 				["at0116"] = <
 					text = <"A3. Rising from sitting">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0117"] = <
 					text = <"None">
@@ -900,7 +902,7 @@ ontology
 				>
 				["at0122"] = <
 					text = <"A4. Standing">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0123"] = <
 					text = <"None">
@@ -924,7 +926,7 @@ ontology
 				>
 				["at0128"] = <
 					text = <"A5. Bending to floor/pick up an object">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0129"] = <
 					text = <"None">
@@ -948,7 +950,7 @@ ontology
 				>
 				["at0134"] = <
 					text = <"A6. Walking on flat surface">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0135"] = <
 					text = <"None">
@@ -972,7 +974,7 @@ ontology
 				>
 				["at0140"] = <
 					text = <"A7. Getting in/out of car">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0141"] = <
 					text = <"None">
@@ -996,7 +998,7 @@ ontology
 				>
 				["at0146"] = <
 					text = <"A8. Going shopping">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0147"] = <
 					text = <"None">
@@ -1020,7 +1022,7 @@ ontology
 				>
 				["at0152"] = <
 					text = <"A9. Putting on socks/stockings">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0153"] = <
 					text = <"None">
@@ -1044,7 +1046,7 @@ ontology
 				>
 				["at0158"] = <
 					text = <"A10. Rising from bed">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0159"] = <
 					text = <"None">
@@ -1068,7 +1070,7 @@ ontology
 				>
 				["at0164"] = <
 					text = <"A11. Taking off socks/stockings">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0165"] = <
 					text = <"None">
@@ -1092,7 +1094,7 @@ ontology
 				>
 				["at0170"] = <
 					text = <"A12. Lying in bed (turning over, maintaining hip position)">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0171"] = <
 					text = <"None">
@@ -1116,7 +1118,7 @@ ontology
 				>
 				["at0176"] = <
 					text = <"A13. Getting in/out of bath">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0177"] = <
 					text = <"None">
@@ -1140,7 +1142,7 @@ ontology
 				>
 				["at0182"] = <
 					text = <"A14. Sitting">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0183"] = <
 					text = <"None">
@@ -1164,7 +1166,7 @@ ontology
 				>
 				["at0188"] = <
 					text = <"A15. Getting on/off toilet">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0189"] = <
 					text = <"None">
@@ -1188,7 +1190,7 @@ ontology
 				>
 				["at0194"] = <
 					text = <"A16. Heavy domestic duties (moving heavy boxes, scrubbing floors, etc)">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0195"] = <
 					text = <"None">
@@ -1212,7 +1214,7 @@ ontology
 				>
 				["at0200"] = <
 					text = <"A17. Light domestic duties (cooking, dusting, etc)">
-					description = <"Function, daily living - The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip.">
+					description = <"">
 				>
 				["at0201"] = <
 					text = <"None">
@@ -1241,7 +1243,7 @@ ontology
 				>
 				["at0207"] = <
 					text = <"SP1. Squatting">
-					description = <"Function, sports and recreational activities - The following questions concern your physical function when being active on a higher level. The questions should be answered thinking of what degree of difficulty you have experienced during the last week due to your hip.">
+					description = <"">
 				>
 				["at0208"] = <
 					text = <"None">
@@ -1265,7 +1267,7 @@ ontology
 				>
 				["at0213"] = <
 					text = <"SP2. Running">
-					description = <"Function, sports and recreational activities - The following questions concern your physical function when being active on a higher level. The questions should be answered thinking of what degree of difficulty you have experienced during the last week due to your hip.">
+					description = <"">
 				>
 				["at0214"] = <
 					text = <"None">
@@ -1289,7 +1291,7 @@ ontology
 				>
 				["at0219"] = <
 					text = <"SP3. Twisting/pivoting on your injured hip">
-					description = <"Function, sports and recreational activities - The following questions concern your physical function when being active on a higher level. The questions should be answered thinking of what degree of difficulty you have experienced during the last week due to your hip.">
+					description = <"">
 				>
 				["at0220"] = <
 					text = <"None">
@@ -1313,7 +1315,7 @@ ontology
 				>
 				["at0225"] = <
 					text = <"SP4. Walking on uneven surface">
-					description = <"Function, sports and recreational activities - The following questions concern your physical function when being active on a higher level. The questions should be answered thinking of what degree of difficulty you have experienced during the last week due to your hip.">
+					description = <"">
 				>
 				["at0226"] = <
 					text = <"None">
@@ -1449,7 +1451,7 @@ ontology
 				>
 				["at0258"] = <
 					text = <"S2. Difficulties spreading legs wide apart.">
-					description = <"Symptoms - These questions should be answered thinking of your hip symptoms during the last week.">
+					description = <"">
 				>
 				["at0259"] = <
 					text = <"None">
