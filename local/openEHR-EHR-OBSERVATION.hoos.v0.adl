@@ -21,6 +21,7 @@ description
 			language = <[ISO_639-1::en]>
 			purpose = <"To record the results for each component parameter, subscale scores, total score for the HOOS survey.">
 			keywords = <"hip, function, disability,", ...>
+			copyright = <"© openEHR Foundation">
 			use = <"Use to record the results for each component parameter, subscale scores, total score for the HOOS survey.
 
 While openEHR archetypes are all freely available under an open license, the specific content of this Hip Disability and Osteoarthritis Outcome Score archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners.">
