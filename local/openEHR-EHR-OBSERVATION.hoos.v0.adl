@@ -35,7 +35,7 @@ Nilsdotter AK, Lohmander LS, Klassbo M, Roos EM. Hip Disability and Osteoarthrit
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3d52d727b7d24d2d202e6cf11fd4a6fa">
+		["MD5-CAM-1.0.1"] = <"30b30defcc0f89bc519dfa61594ebc3a">
 		["build_uid"] = <"a67a72a1-c5cf-34db-a63b-b47ade79374c">
 	>
 
@@ -604,8 +604,6 @@ ontology
 				["at0047"] = <
 					text = <"Symptoms + Stiffness subtotal">
 					description = <"The total for the Symptoms + Stiffness subscore.">
-					comment = <"* Calculation every answer worth S1-S5
-0=0%-1=5%-2=10%-3=15%-4=20%.">
 				>
 				["at0049"] = <
 					text = <"P1. How often is your hip painful?">
@@ -850,7 +848,6 @@ ontology
 				["at0109"] = <
 					text = <"Pain Subtotal">
 					description = <"The total for the Pain subscale.">
-					comment = <"* Calculation every answer worth P1-P10 0=0%-1=2,5%-2=5%-3=7,5%-4=10%.">
 				>
 				["at0110"] = <
 					text = <"A2. Ascending stairs">
@@ -1239,7 +1236,6 @@ ontology
 				["at0206"] = <
 					text = <"Function, daily living subtotal">
 					description = <"The total for Function, daily living subscale.">
-					comment = <"* Calculation every answer worth A1-A17 0=0%-1=1,47%-2=2,94%-3=4,41%-4=5.88%.">
 				>
 				["at0207"] = <
 					text = <"SP1. Squatting">
@@ -1436,18 +1432,14 @@ ontology
 				["at0255"] = <
 					text = <"Function, sports and recreational activities subtotal">
 					description = <"The total for the Function, sports and recreational activities subscale.">
-					comment = <"* Calculation every answer worth SP1-SP4 0=0%-1=6,25%-2=12,5%-3=18,75%-4=25%.">
 				>
 				["at0256"] = <
 					text = <"Quality of life subtotal">
 					description = <"The total for the Quality of life subscale.">
-					comment = <"* Calculation every answer worth Q1-Q4 0=0%-1=6,25%-2=12,5%-3=18,75%-4=25%.">
 				>
 				["at0257"] = <
 					text = <"Total score">
 					description = <"The total sum of each subscale total for the HOOS survey.">
-					comment = <"* Calculation every answer worth All question
-0=0%-1=0,625%-2=1,25%-3=1,875%-4=2,5%.">
 				>
 				["at0258"] = <
 					text = <"S2. Difficulties spreading legs wide apart">
