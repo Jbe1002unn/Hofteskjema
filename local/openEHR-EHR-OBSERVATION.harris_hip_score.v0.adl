@@ -25,17 +25,17 @@ description
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["original_namespace"] = <"org.openehr">
-		["original_publisher"] = <"openEHR Foundation">
-		["custodian_namespace"] = <"org.openehr">
-		["build_uid"] = <"14647bf5-aa28-3847-97cd-e3ebc10a1a1f">
 		["references"] = <"Original Literature:
 Harris, WH. \"Traumatic arthritis of the hip after dislocation and acetabular fractures: treatment by mold arthroplasty: an end-result study using a new method of result evaluation.\" J Bone Joint Surg Am, 1969. 737-55.
 Validation Literature:
 Söderman, Peter, and Henrik Malchau. \"Is the Harris hip score system useful to study the outcome of total hip replacement?.\" Clinical orthopaedics and related research 384 (2001): 189-197.
 Additional Literature:
 Wamper, Kim E., et al. \"The Harris hip score: do ceiling effects limit its usefulness in orthopedics? A systematic review.\" Acta orthopaedica 81.6 (2010): 703-707.">
-		["MD5-CAM-1.0.1"] = <"77f41a46b2e27f825166cc3f6f89af8b">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"76d14c8c8aea6d91addf81a9f8131ead">
+		["build_uid"] = <"14647bf5-aa28-3847-97cd-e3ebc10a1a1f">
 	>
 
 definition
@@ -47,11 +47,6 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0045] occurrences matches {0..1} matches {    -- Section 1
-										value matches {
-											DV_TEXT matches {*}
-										}
-									}
 									ELEMENT[at0004] occurrences matches {0..1} matches {    -- 1. Pain
 										value matches {
 											1|[local::at0005],
@@ -117,20 +112,10 @@ definition
 											3|[local::at0044]
 										}
 									}
-									ELEMENT[at0046] occurrences matches {0..1} matches {    -- Section 2
-										value matches {
-											DV_TEXT matches {*}
-										}
-									}
-									ELEMENT[at0048] occurrences matches {0..1} matches {    -- 9. Does your patient have ALL of the following
+									ELEMENT[at0048] occurrences matches {0..1} matches {    -- Absence of deformity
 										value matches {
 											1|[local::at0049],
 											2|[local::at0050]
-										}
-									}
-									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Section 3 - Motion
-										value matches {
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at0052] occurrences matches {0..1} matches {    -- 10. Total degrees of flexion
@@ -185,7 +170,14 @@ definition
 			}
 		}
 		protocol matches {
-			ITEM_TREE[at0047] matches {*}    -- Item tree
+			ITEM_TREE[at0047] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					allow_archetype CLUSTER[at0084] occurrences matches {0..*} matches {    -- Extension
+						include
+							archetype_id/value matches {/.*/}
+					}
+				}
+			}
 		}
 	}
 
@@ -383,38 +375,24 @@ The highest score is 91 points out of which the higher the score of the client, 
 					text = <"Unable to sit comfortably on any chair">
 					description = <"0">
 				>
-				["at0045"] = <
-					text = <"Section 1">
-					description = <"">
-				>
-				["at0046"] = <
-					text = <"Section 2">
-					description = <"">
-					comment = <"Clinician`s section">
-				>
 				["at0047"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
 				>
 				["at0048"] = <
-					text = <"9. Does your patient have ALL of the following">
+					text = <"Absence of deformity">
 					description = <"Less than 30degrees of fixed flexion
 Less than 10 degrees of fixed int rotation in extension
 Less than 10 degrees of fixed adduction
 Limb length discrepancy less than 3.2 cm (1.5 inches)">
 				>
 				["at0049"] = <
-					text = <"Yes">
+					text = <"Less than 30 ° fixed flexion contracture  AND Less than 10 ° fixed abduction AND Less than 10 ° fixed internal rotation in extension AND Less than 3.2 cm limb length discrepancy">
 					description = <"4">
 				>
 				["at0050"] = <
-					text = <"No">
+					text = <"">
 					description = <"0">
-				>
-				["at0051"] = <
-					text = <"Section 3 - Motion">
-					description = <"">
-					comment = <"Clinician`s section">
 				>
 				["at0052"] = <
 					text = <"10. Total degrees of flexion">
@@ -543,6 +521,11 @@ Limb length discrepancy less than 3.2 cm (1.5 inches)">
 				["at0083"] = <
 					text = <"10>15">
 					description = <"0,15">
+				>
+				["at0084"] = <
+					text = <"Extension">
+					description = <"Additional information required to extend the model with local content or to align with other reference models or formalisms.">
+					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
 				>
 			>
 		>
