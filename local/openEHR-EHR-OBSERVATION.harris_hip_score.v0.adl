@@ -20,6 +20,10 @@ description
 			language = <[ISO_639-1::en]>
 			purpose = <"The idea of using the modified hip score is to assess the functional capacity of the client including the domain of pain and gait and functional activities. It is a disease specific questionnaire. [1]The physiotherapist or a physician can administer this outcome measure and it takes very less time. The only difference between Harris hip score and the modified Harris hip score is the domain of clinical evaluation was removed in modified Harris Hip Score.">
 			keywords = <"Operated hip cases like total hip arthroplasty/pertrochanteric hip fractures.","Osteoarthritis of hip">
+			use = <"Use to record the results for each component parameter, total score for the modified Harris hip score survey.
+
+While openEHR archetypes are all freely available under an open license, the specific content of this Harris hip Score archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners.
+">
 		>
 	>
 	other_details = <
@@ -34,7 +38,7 @@ Wamper, Kim E., et al. \"The Harris hip score: do ceiling effects limit its usef
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"76d14c8c8aea6d91addf81a9f8131ead">
+		["MD5-CAM-1.0.1"] = <"f920bec15b388c787fd79df899c84dbb">
 		["build_uid"] = <"14647bf5-aa28-3847-97cd-e3ebc10a1a1f">
 	>
 
