@@ -79,7 +79,7 @@ Copyright information: https://www.dal.ca/sites/gmr/our-tools/clinical-frailty-s
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b4633aa4b8fec8fa6f5b33268ee86394">
+		["MD5-CAM-1.0.1"] = <"3c16b964862c100893639157eca469aa">
 		["build_uid"] = <"86f191d7-6048-4808-b7a8-c34d44d693bb">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -194,7 +194,7 @@ ontology
 					description = <"Issues with mobility.">
 				>
 				["at0005"] = <
-					text = <"No problems">
+					text = <"I have no problems in walking about">
 					description = <"*">
 				>
 				["at0006"] = <
@@ -220,103 +220,109 @@ ontology
 				>
 				["at0011"] = <
 					text = <"Health state">
-					description = <"A 5-digit code formed from the scores of each component, with 9 indicating a missing value">
+					description = <"A 5-digit code formed from the scores of each component, with 9 indicating a missing value
+
+*A unique health state is defined by combining
+one level from each of the five dimensions.
+A total of 3125 possible health states is defined
+in this way. Each state is referred to by a 5-digit
+code.">
 					comment = <"e.g. '21491'">
 				>
 				["at0012"] = <
-					text = <"Slight problems">
+					text = <"I have slight problems in walking about">
 					description = <"*">
 				>
 				["at0013"] = <
-					text = <"Moderate problems">
+					text = <"I have moderate problems in walking about">
 					description = <"*">
 				>
 				["at0014"] = <
-					text = <"Severe problems">
+					text = <"I have severe problems in walking about">
 					description = <"*">
 				>
 				["at0015"] = <
-					text = <"Unable to walk about.">
+					text = <"I am unable to walk about">
 					description = <"*">
 				>
 				["at0016"] = <
-					text = <"No problems">
+					text = <"I have no problems washing or dressing myself">
 					description = <"*">
 				>
 				["at0017"] = <
-					text = <"Slight problems">
+					text = <"I have slight problems washing or dressing myself">
 					description = <"*">
 				>
 				["at0018"] = <
-					text = <"Moderate problems">
+					text = <"I have moderate problems washing or dressing myself">
 					description = <"*">
 				>
 				["at0019"] = <
-					text = <"Severe problems">
+					text = <"I have severe problems washing or dressing myself">
 					description = <"*">
 				>
 				["at0020"] = <
-					text = <"Unable to wash or dress">
+					text = <"I am unable to wash or dress myself">
 					description = <"*">
 				>
 				["at0021"] = <
-					text = <"No problems">
+					text = <"I have no problems doing my usual activities">
 					description = <"*">
 				>
 				["at0022"] = <
-					text = <"Slight problems">
+					text = <"I have slight problems doing my usual activities">
 					description = <"*">
 				>
 				["at0023"] = <
-					text = <"Moderate problems">
+					text = <"I have moderate problems doing my usual activities">
 					description = <"*">
 				>
 				["at0024"] = <
-					text = <"Severe problems">
+					text = <"I have severe problems doing my usual activities">
 					description = <"*">
 				>
 				["at0025"] = <
-					text = <"Unable to do my usual activities">
+					text = <"I am unable to do my usual activities">
 					description = <"*">
 				>
 				["at0026"] = <
-					text = <"No pain or discomfort">
+					text = <"I have no pain or discomfort">
 					description = <"*">
 				>
 				["at0027"] = <
-					text = <"Slight pain or discomfort">
+					text = <"I have slight pain or discomfort">
 					description = <"*">
 				>
 				["at0028"] = <
-					text = <"Moderate pain or discomfort">
+					text = <"I have moderate pain or discomfort">
 					description = <"*">
 				>
 				["at0029"] = <
-					text = <"Severe pain or discomfort">
+					text = <"I have severe pain or discomfort">
 					description = <"*">
 				>
 				["at0030"] = <
-					text = <"Extreme pain or discomfort">
+					text = <"I have extreme pain or discomfort">
 					description = <"*">
 				>
 				["at0031"] = <
-					text = <"No anxiety or depression">
+					text = <"I am not anxious or depressed">
 					description = <"*">
 				>
 				["at0032"] = <
-					text = <"Slight anxiety or depression">
+					text = <"I am slightly anxious or depressed">
 					description = <"*">
 				>
 				["at0033"] = <
-					text = <"Moderate anxiety or depression">
+					text = <"I am moderately anxious or depressed">
 					description = <"*">
 				>
 				["at0034"] = <
-					text = <"Severe anxiety or depression">
+					text = <"I am severely anxious or depressed">
 					description = <"*">
 				>
 				["at0035"] = <
-					text = <"Extreme anxiety or depression">
+					text = <"I am extremely anxious or depressed">
 					description = <"*">
 				>
 				["at0036"] = <
@@ -379,7 +385,13 @@ ontology
 				>
 				["at0011"] = <
 					text = <"*Health state (en)">
-					description = <"Ein 5-stelliger Code, der aus den Punktzahlen der einzelnen Komponenten gebildet wird, wobei 9 einen fehlenden Wert angibt">
+					description = <"*A 5-digit code formed from the scores of each component, with 9 indicating a missing value
+
+*A unique health state is defined by combining
+one level from each of the five dimensions.
+A total of 3125 possible health states is defined
+in this way. Each state is referred to by a 5-digit
+code. (en)">
 					comment = <"z.B.. '21491'">
 				>
 				["at0012"] = <
@@ -538,7 +550,13 @@ ontology
 				>
 				["at0011"] = <
 					text = <"*Health state (en)">
-					description = <"En 5-sifret kode dannet av poengsummene til hver komponent, med 9 som indikerer en manglende verdi">
+					description = <"*A 5-digit code formed from the scores of each component, with 9 indicating a missing value
+
+*A unique health state is defined by combining
+one level from each of the five dimensions.
+A total of 3125 possible health states is defined
+in this way. Each state is referred to by a 5-digit
+code. (en)">
 					comment = <"f.eks '21491'">
 				>
 				["at0012"] = <
