@@ -33,54 +33,59 @@ description
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
-			purpose = <"EQ-5D-5L ist ein standardisiertes Maß für den Gesundheitszustand, das von der EuroQol-Gruppe entwickelt wurde, um ein einfaches, allgemeines Maß für den Gesundheitszustand für die klinische und wirtschaftliche Bewertung bereitzustellen.">
+			purpose = <"*To record the results of a EQ-5D-5L questionnaire. (en)">
 			keywords = <"status","eq">
 			copyright = <"© openEHR Foundation">
-			use = <"Anwendbar auf ein breites Spektrum von Gesundheitszuständen und Behandlungen.
-Liefert ein einfaches beschreibendes Profil und einen einzigen Indexwert für den Gesundheitszustand, welcher für die klinische und wirtschaftliche Bewertung der Gesundheitsversorgung sowie für Erhebungen zur Gesundheit der Bevölkerung verwendet werden kann. 
-Weitere Informationen finden Sie im Benutzerhandbuch:
-http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D-5L_UserGuide_2015.pdf">
-			misuse = <"Nutzer des EQ-5D-5L-Archetyps müssen sicherstellen, dass sie die Nutzungsbedingungen der EuroQol Research Foundation einhalten.
- http://www.euroqol.org/eq-5d-products/how-to-obtain-eq-5d.html">
+			use = <"*Use to record the results of a EQ-5D-5L questionnaire.
+
+While openEHR archetypes are all freely available under an open license, the specific content of this EQ-5D-5L archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners. 
+
+Copyright statement: ©2009. Version 1.2_EN. All rights reserved. Geriatric Medicine Research, Dalhousie University, Halifax, Canada. 
+
+Copyright information: https://www.dal.ca/sites/gmr/our-tools/clinical-frailty-scale.html. (en)">
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"EQ-5D-5L er et standardisert mål på helsestatus utviklet av EuroQol Group for å gi et enkelt, generisk mål på helse for klinisk og økonomisk vurdering.">
+			purpose = <"*To record the results of a EQ-5D-5L questionnaire. (en)">
 			keywords = <"status","EQ">
 			copyright = <"© openEHR Foundation">
-			use = <"Gjelder for et bredt spekter av helsetilstander og behandlinger, gir en enkel beskrivende profil og en enkelt indeksverdi for helsestatus som kan brukes i klinisk og økonomisk evaluering av helsevesenet så vel som i befolkningshelseundersøkelser. Ytterligere informasjon er tilgjengelig i brukerveiledningen http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D-5L_UserGuide_2015.pdf">
-			misuse = <"Brukere av arketypen EQ-5D-5L må sørge for at de overholder vilkårene for bruk av EuroQol Research Foundation som eier opphavsretten til den originale vurderingen http://www.euroqol.org/eq-5d-products/how-to-obtain-eq-5d.html">
+			use = <"*Use to record the results of a EQ-5D-5L questionnaire.
+
+While openEHR archetypes are all freely available under an open license, the specific content of this EQ-5D-5L archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners. 
+
+Copyright statement: ©2009. Version 1.2_EN. All rights reserved. Geriatric Medicine Research, Dalhousie University, Halifax, Canada. 
+
+Copyright information: https://www.dal.ca/sites/gmr/our-tools/clinical-frailty-scale.html. (en)">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"EQ-5D-5L is a standardised measure of health status developed by the EuroQol Group in order to
-provide a simple, generic measure of health for clinical and economic appraisal.">
+			purpose = <"To record the results of a EQ-5D-5L questionnaire.">
 			keywords = <"status","eq">
 			copyright = <"© openEHR Foundation">
-			use = <"Applicable to a wide range of health conditions and treatments,  provides a simple descriptive profile and a
-single index value for health status that can be used in the clinical and economic evaluation of health care as
-well as in population health surveys. Further information is available in the User Guide
-http://www.euroqol.org/fileadmin/user_upload/Documenten/PDF/Folders_Flyers/EQ-5D-5L_UserGuide_2015.pdf">
-			misuse = <"Users of the EQ-5D-5L archetype must ensure that they comply with the terms of use of the EuroQol Research Foundation who own the copyright of the original assessment http://www.euroqol.org/eq-5d-products/how-to-obtain-eq-5d.html">
+			use = <"Use to record the results of a EQ-5D-5L questionnaire.
+
+While openEHR archetypes are all freely available under an open license, the specific content of this EQ-5D-5L archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners. 
+
+Copyright statement: ©2009. Version 1.2_EN. All rights reserved. Geriatric Medicine Research, Dalhousie University, Halifax, Canada. 
+
+Copyright information: https://www.dal.ca/sites/gmr/our-tools/clinical-frailty-scale.html.">
 		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["references"] = <"The EuroQol Group (1990). EuroQol-a new facility for the measurement of health-related
-quality of life. Health Policy 16(3):199-208.
-
-Norway (Norwegian)© 2011 EuroQol Group. EQ-5D™ is a trade mark of the EuroQol Group">
+		["references"] = <"The EuroQol Group (1990). EuroQol-a new facility for the measurement of health-related quality of life. Health Policy 16(3):199-208.
+">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"784003ef6634c80ecf5d4ca32fb42fef">
+		["MD5-CAM-1.0.1"] = <"b4633aa4b8fec8fa6f5b33268ee86394">
 		["build_uid"] = <"86f191d7-6048-4808-b7a8-c34d44d693bb">
 		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- EQ-5D-5L Health status
+	OBSERVATION[at0000] matches {    -- EQ-5D-5L
 		data matches {
 			HISTORY[at0001] matches {    -- Event Series
 				events cardinality matches {1..*; unordered} matches {
@@ -133,7 +138,7 @@ definition
 											5|[local::at0035]
 										}
 									}
-									ELEMENT[at0011] occurrences matches {0..1} matches {    -- State
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- Health state
 										value matches {
 											DV_TEXT matches {*}
 										}
@@ -152,6 +157,16 @@ definition
 				}
 			}
 		}
+		protocol matches {
+			ITEM_TREE[at0036] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					allow_archetype CLUSTER[at0037] occurrences matches {0..*} matches {    -- Extension
+						include
+							archetype_id/value matches {/.*/}
+					}
+				}
+			}
+		}
 	}
 
 ontology
@@ -159,8 +174,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"EQ-5D-5L Health status">
-					description = <"A standardised measure of health status to provide a simple, generic measure of health for clinical and economic appraisal.">
+					text = <"EQ-5D-5L">
+					description = <"A short descriptive system questionnaire and a visual analogue scale (VAS) that provides a simple descriptive profile of a respondent’s health state.">
 				>
 				["at0001"] = <
 					text = <"Event Series">
@@ -204,7 +219,7 @@ ontology
 					description = <"A self-assessment of overall health on a scale from 0 to 100">
 				>
 				["at0011"] = <
-					text = <"State">
+					text = <"Health state">
 					description = <"A 5-digit code formed from the scores of each component, with 9 indicating a missing value">
 					comment = <"e.g. '21491'">
 				>
@@ -304,13 +319,22 @@ ontology
 					text = <"Extreme anxiety or depression">
 					description = <"*">
 				>
+				["at0036"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0037"] = <
+					text = <"Extension">
+					description = <"Additional information required to extend the model with local content or to align with other reference models or formalisms.">
+					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
+				>
 			>
 		>
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"EQ-5D-5L Gesundheitsfragebogen">
-					description = <"Ein standardisiertes Maß für den Gesundheitszustand, um ein einfaches, allgemeines Maß für den Gesundheitszustand für die klinische und wirtschaftliche Bewertung zu erhalten. ">
+					text = <"*EQ-5D-5L (en)">
+					description = <"*A short descriptive system questionnaire and a visual analogue scale (VAS) that provides a simple descriptive profile of a respondent’s health state. (en)">
 				>
 				["at0001"] = <
 					text = <"Event Series">
@@ -354,7 +378,7 @@ ontology
 					description = <"Eine Selbsteinschätzung des allgemeinen Gesundheitszustands auf einer Skala von 0 bis 100">
 				>
 				["at0011"] = <
-					text = <"Gesundheitszustand">
+					text = <"*Health state (en)">
 					description = <"Ein 5-stelliger Code, der aus den Punktzahlen der einzelnen Komponenten gebildet wird, wobei 9 einen fehlenden Wert angibt">
 					comment = <"z.B.. '21491'">
 				>
@@ -454,13 +478,22 @@ ontology
 					text = <"Ich bin extrem ängstlich oder deprimiert">
 					description = <"*">
 				>
+				["at0036"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
+				["at0037"] = <
+					text = <"*Extension (en)">
+					description = <"*Additional information required to extend the model with local content or to align with other reference models or formalisms. (en)">
+					comment = <"*For example: local information requirements; or additional metadata to align with FHIR. (en)">
+				>
 			>
 		>
 		["nb"] = <
 			items = <
 				["at0000"] = <
-					text = <"EQ-5D-5L Helsestatus">
-					description = <"Et standardisert mål på helsestatus for å gi et enkelt, generisk mål på helse for klinisk og økonomisk vurdering.">
+					text = <"*EQ-5D-5L (en)">
+					description = <"*A short descriptive system questionnaire and a visual analogue scale (VAS) that provides a simple descriptive profile of a respondent’s health state. (en)">
 				>
 				["at0001"] = <
 					text = <"Eventserie">
@@ -504,7 +537,7 @@ ontology
 					description = <"En egenvurdering av generell helse på en skala fra 0 til 100">
 				>
 				["at0011"] = <
-					text = <"Tilstand">
+					text = <"*Health state (en)">
 					description = <"En 5-sifret kode dannet av poengsummene til hver komponent, med 9 som indikerer en manglende verdi">
 					comment = <"f.eks '21491'">
 				>
@@ -603,6 +636,15 @@ ontology
 				["at0035"] = <
 					text = <"Jeg er ekstremt engstelig eller deprimert">
 					description = <"*">
+				>
+				["at0036"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
+				["at0037"] = <
+					text = <"*Extension (en)">
+					description = <"*Additional information required to extend the model with local content or to align with other reference models or formalisms. (en)">
+					comment = <"*For example: local information requirements; or additional metadata to align with FHIR. (en)">
 				>
 			>
 		>
