@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=dfdf6260-7f52-443c-b8ee-db7686198786)
+archetype (adl_version=1.4; uid=d70e96be-b6ee-3a53-9892-0b9274003cad)
 	openEHR-EHR-OBSERVATION.harris_hip_score.v0
 
 concept
@@ -14,32 +14,31 @@ description
 		["organisation"] = <"HN IKT">
 		["email"] = <"Jonas.nils.erik.lyshaug@hnikt.no">
 	>
-	lifecycle_state = <"unmanaged">
+	lifecycle_state = <"in_development">
 	details = <
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"The idea of using the modified hip score is to assess the functional capacity of the client including the domain of pain and gait and functional activities. It is a disease specific questionnaire. [1]The physiotherapist or a physician can administer this outcome measure and it takes very less time. The only difference between Harris hip score and the modified Harris hip score is the domain of clinical evaluation was removed in modified Harris Hip Score.">
-			keywords = <"Operated hip cases like total hip arthroplasty/pertrochanteric hip fractures.","Osteoarthritis of hip">
+			purpose = <"To record the results from the Harris Hip Score.">
+			keywords = <"arthroplasty","fractures","osteoarthritis","hip">
 			use = <"Use to record the results for each component parameter, total score for the modified Harris hip score survey.
 
-While openEHR archetypes are all freely available under an open license, the specific content of this Harris hip Score archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners.
-">
+While openEHR archetypes are all freely available under an open license, the specific content of this Harris hip Score archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners.">
 		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["references"] = <"Original Literature:
-Harris, WH. \"Traumatic arthritis of the hip after dislocation and acetabular fractures: treatment by mold arthroplasty: an end-result study using a new method of result evaluation.\" J Bone Joint Surg Am, 1969. 737-55.
-Validation Literature:
+		["references"] = <"Harris, WH. \"Traumatic arthritis of the hip after dislocation and acetabular fractures: treatment by mold arthroplasty: an end-result study using a new method of result evaluation.\" J Bone Joint Surg Am, 1969. 737-55.
+
 Söderman, Peter, and Henrik Malchau. \"Is the Harris hip score system useful to study the outcome of total hip replacement?.\" Clinical orthopaedics and related research 384 (2001): 189-197.
-Additional Literature:
+
 Wamper, Kim E., et al. \"The Harris hip score: do ceiling effects limit its usefulness in orthopedics? A systematic review.\" Acta orthopaedica 81.6 (2010): 703-707.">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"19a44af91d75b5ac5791151efddd81e9">
-		["build_uid"] = <"14647bf5-aa28-3847-97cd-e3ebc10a1a1f">
+		["MD5-CAM-1.0.1"] = <"9D86B23D7074905D9E5E882C7C76A461">
+		["build_uid"] = <"df121879-2838-4d08-a2c8-070209bb5e16">
+		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
@@ -61,7 +60,7 @@ definition
 											6|[local::at0010]
 										}
 									}
-									ELEMENT[at0011] occurrences matches {0..1} matches {    -- 2. Support Devices
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- 2. Support devices
 										value matches {
 											1|[local::at0012],
 											2|[local::at0013],
@@ -116,7 +115,7 @@ definition
 											3|[local::at0044]
 										}
 									}
-									ELEMENT[at0048] occurrences matches {0..1} matches {    -- Absence of deformity
+									ELEMENT[at0048] occurrences matches {0..1} matches {    -- 9. Absence of deformity
 										value matches {
 											1|[local::at0049],
 											2|[local::at0050]
@@ -141,7 +140,7 @@ definition
 											15|[local::at0067]
 										}
 									}
-									ELEMENT[at0068] occurrences matches {0..1} matches {    -- 11. Total degrees of Abduction
+									ELEMENT[at0068] occurrences matches {0..1} matches {    -- 11. Total degrees of abduction
 										value matches {
 											1|[local::at0069],
 											2|[local::at0070],
@@ -150,7 +149,7 @@ definition
 											5|[local::at0073]
 										}
 									}
-									ELEMENT[at0074] occurrences matches {0..1} matches {    -- 12. Total degrees of Ext Rotation
+									ELEMENT[at0074] occurrences matches {0..1} matches {    -- 12. Total degrees of external rotation
 										value matches {
 											1|[local::at0075],
 											2|[local::at0076],
@@ -158,12 +157,32 @@ definition
 											4|[local::at0078]
 										}
 									}
-									ELEMENT[at0079] occurrences matches {0..1} matches {    -- 13. Total degrees of Adduction
+									ELEMENT[at0079] occurrences matches {0..1} matches {    -- 13. Total degrees of adduction
 										value matches {
 											1|[local::at0080],
 											2|[local::at0081],
 											3|[local::at0082],
 											4|[local::at0083]
+										}
+									}
+									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Total score
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+										}
+									}
+									ELEMENT[at0086] occurrences matches {0..1} matches {    -- Grading
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0087,    -- Poor
+													at0088,    -- Fair
+													at0089,    -- Good
+													at0090]    -- Excellent
+												}
+											}
 										}
 									}
 								}
@@ -191,17 +210,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"Harris Hip Score (HHS)">
-					description = <"The following are the main domains: Pain, Function(gait), and functional activities.
-
-The first section (pain domain) has various questions related to pain. The highest score of this section is 44points when there is no pain experienced by the patient.
-
-The next domain is function wherein the gait is assessed. This domain is further divided into three parts like Limp, Support, and Distance Walked. If the candidate has no limp, and walks unlimited distances without support then he gets 11 points for all the three individual categories.
-
-The final domain is functional activities. Here, stair climbing, the ability to don/doff shoes and socks, sitting balance, and the ability to commute independently are assessed. If he does stair climbing and donning /doffing successfully, he gets 4 points each.
-
-If he sits in any type of chair, the score is 5. And by entering the public transportation easily he gets 1 point.
-
-The highest score is 91 points out of which the higher the score of the client, the better is his functional independence.">
+					description = <"An assessment score used to assess the functional capacity of the individual after hip surgery, including the domain of pain and gait and functional activities.">
 				>
 				["at0001"] = <
 					text = <"History">
@@ -209,7 +218,7 @@ The highest score is 91 points out of which the higher the score of the client, 
 				>
 				["at0002"] = <
 					text = <"Any event">
-					description = <"@ internal @">
+					description = <"Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time.">
 				>
 				["at0003"] = <
 					text = <"Tree">
@@ -244,7 +253,7 @@ The highest score is 91 points out of which the higher the score of the client, 
 					description = <"0">
 				>
 				["at0011"] = <
-					text = <"2. Support Devices">
+					text = <"2. Support devices">
 					description = <"">
 				>
 				["at0012"] = <
@@ -384,11 +393,11 @@ The highest score is 91 points out of which the higher the score of the client, 
 					description = <"@ internal @">
 				>
 				["at0048"] = <
-					text = <"Absence of deformity">
-					description = <"Less than 30degrees of fixed flexion
-Less than 10 degrees of fixed int rotation in extension
-Less than 10 degrees of fixed adduction
-Limb length discrepancy less than 3.2 cm (1.5 inches)">
+					text = <"9. Absence of deformity">
+					description = <"Less than 30degrees of fixed flexion.
+Less than 10 degrees of fixed internal rotation in extension.
+Less than 10 degrees of fixed adduction.
+Limb length discrepancy less than 3.2 cm (1.5 inches).">
 				>
 				["at0049"] = <
 					text = <"Less than 30 ° fixed flexion contracture  AND Less than 10 ° fixed abduction AND Less than 10 ° fixed internal rotation in extension AND Less than 3.2 cm limb length discrepancy">
@@ -463,7 +472,7 @@ Limb length discrepancy less than 3.2 cm (1.5 inches)">
 					description = <"3,9">
 				>
 				["at0068"] = <
-					text = <"11. Total degrees of Abduction">
+					text = <"11. Total degrees of abduction">
 					description = <"">
 				>
 				["at0069"] = <
@@ -487,7 +496,7 @@ Limb length discrepancy less than 3.2 cm (1.5 inches)">
 					description = <"0,65">
 				>
 				["at0074"] = <
-					text = <"12. Total degrees of Ext Rotation">
+					text = <"12. Total degrees of external rotation">
 					description = <"">
 				>
 				["at0075"] = <
@@ -507,7 +516,7 @@ Limb length discrepancy less than 3.2 cm (1.5 inches)">
 					description = <"0,3">
 				>
 				["at0079"] = <
-					text = <"13. Total degrees of Adduction">
+					text = <"13. Total degrees of adduction">
 					description = <"">
 				>
 				["at0080"] = <
@@ -530,6 +539,30 @@ Limb length discrepancy less than 3.2 cm (1.5 inches)">
 					text = <"Extension">
 					description = <"Additional information required to extend the model with local content or to align with other reference models or formalisms.">
 					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
+				>
+				["at0085"] = <
+					text = <"Total score">
+					description = <"The total sum of each component parameter for the Harris hip score.">
+				>
+				["at0086"] = <
+					text = <"Grading">
+					description = <"Grading derived from Harris hip score.">
+				>
+				["at0087"] = <
+					text = <"Poor">
+					description = <"Less than 70.">
+				>
+				["at0088"] = <
+					text = <"Fair">
+					description = <"70 to 79.">
+				>
+				["at0089"] = <
+					text = <"Good">
+					description = <"80 to 89.">
+				>
+				["at0090"] = <
+					text = <"Excellent">
+					description = <"90 to 100.">
 				>
 			>
 		>
