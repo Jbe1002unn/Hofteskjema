@@ -38,12 +38,12 @@ Wamper, Kim E., et al. \"The Harris hip score: do ceiling effects limit its usef
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f920bec15b388c787fd79df899c84dbb">
+		["MD5-CAM-1.0.1"] = <"19a44af91d75b5ac5791151efddd81e9">
 		["build_uid"] = <"14647bf5-aa28-3847-97cd-e3ebc10a1a1f">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- Harris Hip Score (Harris Hip Score modify)
+	OBSERVATION[at0000] matches {    -- Harris Hip Score (HHS)
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -190,7 +190,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"Harris Hip Score (Harris Hip Score modify)">
+					text = <"Harris Hip Score (HHS)">
 					description = <"The following are the main domains: Pain, Function(gait), and functional activities.
 
 The first section (pain domain) has various questions related to pain. The highest score of this section is 44points when there is no pain experienced by the patient.
