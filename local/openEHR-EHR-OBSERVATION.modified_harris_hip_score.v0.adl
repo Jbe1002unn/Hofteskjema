@@ -36,13 +36,13 @@ Wamper, Kim E., et al. \"The Harris hip score: do ceiling effects limit its usef
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"43ac741a51b2bd5d508b261f0d348cc1">
+		["MD5-CAM-1.0.1"] = <"d5bef36f1a498e49ebad9c068df4a24b">
 		["build_uid"] = <"df121879-2838-4d08-a2c8-070209bb5e16">
 		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- modified_harris_hip_score
+	OBSERVATION[at0000] matches {    -- Modified Harris Hip Score (mHHS)
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -115,61 +115,25 @@ definition
 											3|[local::at0044]
 										}
 									}
-									ELEMENT[at0048] occurrences matches {0..1} matches {    -- 9. Absence of deformity
-										value matches {
-											1|[local::at0049],
-											2|[local::at0050]
-										}
-									}
-									ELEMENT[at0052] occurrences matches {0..1} matches {    -- 10. Total degrees of flexion
-										value matches {
-											1|[local::at0053],
-											2|[local::at0054],
-											3|[local::at0055],
-											4|[local::at0056],
-											5|[local::at0057],
-											6|[local::at0058],
-											7|[local::at0059],
-											8|[local::at0060],
-											9|[local::at0061],
-											10|[local::at0062],
-											11|[local::at0063],
-											12|[local::at0064],
-											13|[local::at0065],
-											14|[local::at0066],
-											15|[local::at0067]
-										}
-									}
-									ELEMENT[at0068] occurrences matches {0..1} matches {    -- 11. Total degrees of abduction
-										value matches {
-											1|[local::at0069],
-											2|[local::at0070],
-											3|[local::at0071],
-											4|[local::at0072],
-											5|[local::at0073]
-										}
-									}
-									ELEMENT[at0074] occurrences matches {0..1} matches {    -- 12. Total degrees of external rotation
-										value matches {
-											1|[local::at0075],
-											2|[local::at0076],
-											3|[local::at0077],
-											4|[local::at0078]
-										}
-									}
-									ELEMENT[at0079] occurrences matches {0..1} matches {    -- 13. Total degrees of adduction
-										value matches {
-											1|[local::at0080],
-											2|[local::at0081],
-											3|[local::at0082],
-											4|[local::at0083]
-										}
-									}
 									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Total score
 										value matches {
 											DV_COUNT matches {
-												magnitude matches {|0..100|}
+												magnitude matches {|0..91|}
 											}
+										}
+									}
+									ELEMENT[at0091] occurrences matches {0..1} matches {    -- Adjusted score
+										value matches {
+											C_DV_QUANTITY <
+												property = <[openehr::380]>
+												list = <
+													["1"] = <
+														units = <"1">
+														magnitude = <|0.0..100.0|>
+														precision = <|1|>
+													>
+												>
+											>
 										}
 									}
 									ELEMENT[at0086] occurrences matches {0..1} matches {    -- Grading
@@ -209,7 +173,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"modified_harris_hip_score">
+					text = <"Modified Harris Hip Score (mHHS)">
 					description = <"An assessment score used to assess the functional capacity of the individual after hip surgery, including the domain of pain and gait and functional activities.">
 				>
 				["at0001"] = <
@@ -392,149 +356,6 @@ ontology
 					text = <"Item tree">
 					description = <"@ internal @">
 				>
-				["at0048"] = <
-					text = <"9. Absence of deformity">
-					description = <"Less than 30degrees of fixed flexion.
-Less than 10 degrees of fixed internal rotation in extension.
-Less than 10 degrees of fixed adduction.
-Limb length discrepancy less than 3.2 cm (1.5 inches).">
-				>
-				["at0049"] = <
-					text = <"Less than 30 ° fixed flexion contracture  AND Less than 10 ° fixed abduction AND Less than 10 ° fixed internal rotation in extension AND Less than 3.2 cm limb length discrepancy">
-					description = <"4">
-				>
-				["at0050"] = <
-					text = <"">
-					description = <"0">
-				>
-				["at0052"] = <
-					text = <"10. Total degrees of flexion">
-					description = <"">
-				>
-				["at0053"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0054"] = <
-					text = <"0>8">
-					description = <"0,04">
-				>
-				["at0055"] = <
-					text = <"8>16">
-					description = <"0,08">
-				>
-				["at0056"] = <
-					text = <"16>24">
-					description = <"1,2">
-				>
-				["at0057"] = <
-					text = <"24>32">
-					description = <"1,6">
-				>
-				["at0058"] = <
-					text = <"32>40">
-					description = <"2">
-				>
-				["at0059"] = <
-					text = <"40>45">
-					description = <"2,25">
-				>
-				["at0060"] = <
-					text = <"45>55">
-					description = <"2,55">
-				>
-				["at0061"] = <
-					text = <"55>65">
-					description = <"2,85">
-				>
-				["at0062"] = <
-					text = <"65>70">
-					description = <"3">
-				>
-				["at0063"] = <
-					text = <"70>75">
-					description = <"3,15">
-				>
-				["at0064"] = <
-					text = <"75>80">
-					description = <"3,3">
-				>
-				["at0065"] = <
-					text = <"80>90">
-					description = <"3,6">
-				>
-				["at0066"] = <
-					text = <"90>100">
-					description = <"3,75">
-				>
-				["at0067"] = <
-					text = <"100>110">
-					description = <"3,9">
-				>
-				["at0068"] = <
-					text = <"11. Total degrees of abduction">
-					description = <"">
-				>
-				["at0069"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0070"] = <
-					text = <"0>5">
-					description = <"0,2">
-				>
-				["at0071"] = <
-					text = <"5>10">
-					description = <"0,4">
-				>
-				["at0072"] = <
-					text = <"10>15">
-					description = <"0,6">
-				>
-				["at0073"] = <
-					text = <"15>20">
-					description = <"0,65">
-				>
-				["at0074"] = <
-					text = <"12. Total degrees of external rotation">
-					description = <"">
-				>
-				["at0075"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0076"] = <
-					text = <"0>5">
-					description = <"0,1">
-				>
-				["at0077"] = <
-					text = <"5>10">
-					description = <"0,2">
-				>
-				["at0078"] = <
-					text = <"10>15">
-					description = <"0,3">
-				>
-				["at0079"] = <
-					text = <"13. Total degrees of adduction">
-					description = <"">
-				>
-				["at0080"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0081"] = <
-					text = <"0>5">
-					description = <"0,05">
-				>
-				["at0082"] = <
-					text = <"5>10">
-					description = <"0,1">
-				>
-				["at0083"] = <
-					text = <"10>15">
-					description = <"0,15">
-				>
 				["at0084"] = <
 					text = <"Extension">
 					description = <"Additional information required to extend the model with local content or to align with other reference models or formalisms.">
@@ -563,6 +384,10 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 				["at0090"] = <
 					text = <"Excellent">
 					description = <"90 to 100.">
+				>
+				["at0091"] = <
+					text = <"Adjusted score">
+					description = <"">
 				>
 			>
 		>
