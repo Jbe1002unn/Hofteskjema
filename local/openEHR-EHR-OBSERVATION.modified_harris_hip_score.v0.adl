@@ -22,6 +22,19 @@ description
 			keywords = <"arthroplasty","fractures","osteoarthritis","hip">
 			use = <"Use to record the results for each component parameter, total score for the modified Harris hip score survey.
 
+In? 
+The following are the main domains: Pain, Function(gait), and functional activities.
+
+The first section (pain domain) has various questions related to pain. The highest score of this section is 44points when there is no pain experienced by the patient.
+
+The next domain is function wherein the gait is assessed. This domain is further divided into three parts like Limp, Support, and Distance Walked. If the candidate has no limp, and walks unlimited distances without support then he gets 11 points for all the three individual categories.
+
+The final domain is functional activities. Here, stair climbing, the ability to don/doff shoes and socks, sitting balance, and the ability to commute independently are assessed. If he does stair climbing and donning /doffing successfully, he gets 4 points each.
+
+If he sits in any type of chair, the score is 5. And by entering the public transportation easily he gets 1 point.
+
+The highest score is 91 points out of which the higher the score of the client, the better is his functional independence.
+
 While openEHR archetypes are all freely available under an open license, the specific content of this Harris hip Score archetype is copyright protected. Any use of this archetype within implementations must be in compliance with the terms established by the copyright owners.">
 		>
 	>
