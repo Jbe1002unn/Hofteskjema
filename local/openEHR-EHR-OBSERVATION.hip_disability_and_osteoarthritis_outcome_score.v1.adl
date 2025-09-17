@@ -15,34 +15,10 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"HOOS is developed as an instrument to assess the patients’ opinion about their
-hip and associated problems.
-HOOS is intended to be used for hip disability with or without osteoarthritis
-(OA).
-HOOS is validated in two slightly different versions, LK 1.1 and LK 2.0.
-HOOS is meant to be used over both short and long time intervals; to assess
-changes from week to week induced by treatment (medication, operation,
-physical therapy) or over years due to the primary injury or post traumatic OA.
-HOOS can be used to assess groups and to monitor individuals.
-HOOS content validity was ensured through literature search, through
-interviews with more than 100 patients with hip disability, with and without hip
-OA [1], and by questioning 90 patients undergoing total hip replacement [5].
-HOOS consists of 5 subscales; Pain, other Symptoms, Function in daily
-living (ADL), Function in sport and recreation (Sport/Rec) and hip related
-Quality of life (QOL). The last week is taken into consideration when
-answering the questions. Standardized answer options are given (5 Likert
-boxes) and each question gets a score from 0 to 4. A normalized score (100
-indicating no symptoms and 0 indicating extreme symptoms) is calculated for
-each subscale. The result can be plotted as an outcome profile.
-HOOS is patient-administered, the format is user friendly, and takes about 10
-minutes to fill out.
-HOOS is self-explanatory and can be administered in the waiting room or used
-as a mailed survey.
-HOOS has been used on patients 42-89 years old. ">
 		>
 	>
 	other_details = <
-		["MD5-CAM-1.0.1"] = <"4780C3809909B48A7DA48307832CD14F">
+		["MD5-CAM-1.0.1"] = <"8849543708de1123bad34a7e34420811">
 		["build_uid"] = <"6601d8bc-851f-3ea4-b987-71d59e75ae57">
 	>
 
