@@ -40,7 +40,7 @@ Wamper KE, Sierevelt IN, Poolman RW, Bhandari M, Haverkamp D. The Harris hip sco
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"B686C45EFAD8B47F90948063C55E8E7C">
+		["MD5-CAM-1.0.1"] = <"65f217a7c57c58e0265b1b30491a5c67">
 		["build_uid"] = <"39934d4f-7385-4bcb-a0fb-fbe227061f36">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -83,6 +83,17 @@ definition
 											4|[local::at0015],
 											5|[local::at0016],
 											6|[local::at0017]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0101,    -- 1
+													at0102,    -- 2
+													at0103,    -- 3
+													at0104,    -- 4
+													at0105,    -- 5
+													at0106]    -- 6
+												}
+											}
 										}
 									}
 									ELEMENT[at0018] occurrences matches {0..1} matches {    -- 3. Distance walked
@@ -92,6 +103,16 @@ definition
 											3|[local::at0021],
 											4|[local::at0022],
 											5|[local::at0023]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0107,    -- 1
+													at0108,    -- 2
+													at0109,    -- 3
+													at0110,    -- 4
+													at0111]    -- 5
+												}
+											}
 										}
 									}
 									ELEMENT[at0024] occurrences matches {0..1} matches {    -- 4. Limp
@@ -100,6 +121,15 @@ definition
 											2|[local::at0026],
 											3|[local::at0027],
 											4|[local::at0028]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0112,    -- 1
+													at0113,    -- 2
+													at0114,    -- 3
+													at0115]    -- 4
+												}
+											}
 										}
 									}
 									ELEMENT[at0029] occurrences matches {0..1} matches {    -- 5. Shoes and socks
@@ -107,6 +137,14 @@ definition
 											1|[local::at0030],
 											2|[local::at0031],
 											3|[local::at0032]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0116,    -- 1
+													at0117,    -- 2
+													at0118]    -- 3
+												}
+											}
 										}
 									}
 									ELEMENT[at0033] occurrences matches {0..1} matches {    -- 6. Stairs
@@ -115,12 +153,28 @@ definition
 											2|[local::at0035],
 											3|[local::at0036],
 											4|[local::at0037]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0119,    -- 1
+													at0120,    -- 2
+													at0121,    -- 3
+													at0122]    -- 4
+												}
+											}
 										}
 									}
 									ELEMENT[at0038] occurrences matches {0..1} matches {    -- 7. Public transportation
 										value matches {
 											1|[local::at0039],
 											2|[local::at0040]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0123,    -- 1
+													at0124]    -- 2
+												}
+											}
 										}
 									}
 									ELEMENT[at0041] occurrences matches {0..1} matches {    -- 8. Sitting
@@ -128,6 +182,14 @@ definition
 											1|[local::at0042],
 											2|[local::at0043],
 											3|[local::at0044]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0125,    -- 1
+													at0126,    -- 2
+													at0127]    -- 3
+												}
+											}
 										}
 									}
 									ELEMENT[at0048] occurrences matches {0..4} matches {    -- 9. Absence of deformity
@@ -136,6 +198,15 @@ definition
 											2|[local::at0097],
 											3|[local::at0098],
 											4|[local::at0099]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0128,    -- 1
+													at0129,    -- 2
+													at0130,    -- 3
+													at0131]    -- 4
+												}
+											}
 										}
 									}
 									ELEMENT[at0052] occurrences matches {0..1} matches {    -- 10. Total degrees of flexion
@@ -155,6 +226,26 @@ definition
 											13|[local::at0065],
 											14|[local::at0066],
 											15|[local::at0067]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0132,    -- 1
+													at0133,    -- 2
+													at0134,    -- 3
+													at0135,    -- 4
+													at0136,    -- 5
+													at0137,    -- 6
+													at0138,    -- 7
+													at0139,    -- 8
+													at0140,    -- 9
+													at0141,    -- 10
+													at0142,    -- 11
+													at0143,    -- 12
+													at0144,    -- 13
+													at0145,    -- 14
+													at0146]    -- 15
+												}
+											}
 										}
 									}
 									ELEMENT[at0068] occurrences matches {0..1} matches {    -- 11. Total degrees of abduction
@@ -164,6 +255,16 @@ definition
 											3|[local::at0071],
 											4|[local::at0072],
 											5|[local::at0073]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0147,    -- 1
+													at0148,    -- 2
+													at0149,    -- 3
+													at0150,    -- 4
+													at0151]    -- 5
+												}
+											}
 										}
 									}
 									ELEMENT[at0074] occurrences matches {0..1} matches {    -- 12. Total degrees of external rotation
@@ -172,6 +273,15 @@ definition
 											2|[local::at0076],
 											3|[local::at0077],
 											4|[local::at0078]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0152,    -- 1
+													at0153,    -- 2
+													at0154,    -- 3
+													at0155]    -- 4
+												}
+											}
 										}
 									}
 									ELEMENT[at0079] occurrences matches {0..1} matches {    -- 13. Total degrees of adduction
@@ -180,6 +290,15 @@ definition
 											2|[local::at0081],
 											3|[local::at0082],
 											4|[local::at0083]
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0156,    -- 1
+													at0157,    -- 2
+													at0158,    -- 3
+													at0159]    -- 4
+												}
+											}
 										}
 									}
 									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Total score
@@ -612,6 +731,242 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 				["at0099"] = <
 					text = <"Less than 3.2 cm limb length discrepancy">
 					description = <"">
+				>
+				["at0101"] = <
+					text = <"1">
+					description = <"None">
+				>
+				["at0102"] = <
+					text = <"2">
+					description = <"Cane/walking stick for long walks">
+				>
+				["at0103"] = <
+					text = <"3">
+					description = <"Cane/walking stick most of the time">
+				>
+				["at0104"] = <
+					text = <"4">
+					description = <"One crutch">
+				>
+				["at0105"] = <
+					text = <"5">
+					description = <"Two canes/walking sticks">
+				>
+				["at0106"] = <
+					text = <"6">
+					description = <"Two crutches or not able to walk">
+				>
+				["at0107"] = <
+					text = <"1">
+					description = <"Unlimited">
+				>
+				["at0108"] = <
+					text = <"2">
+					description = <"Six blocks">
+				>
+				["at0109"] = <
+					text = <"3">
+					description = <"Two or three blocks">
+				>
+				["at0110"] = <
+					text = <"4">
+					description = <"Indoors only">
+				>
+				["at0111"] = <
+					text = <"5">
+					description = <"Bed and chair only">
+				>
+				["at0112"] = <
+					text = <"1">
+					description = <"None">
+				>
+				["at0113"] = <
+					text = <"2">
+					description = <"Slight">
+				>
+				["at0114"] = <
+					text = <"3">
+					description = <"Moderate">
+				>
+				["at0115"] = <
+					text = <"4">
+					description = <"Severe">
+				>
+				["at0116"] = <
+					text = <"1">
+					description = <"With ease">
+				>
+				["at0117"] = <
+					text = <"2">
+					description = <"With difficulty">
+				>
+				["at0118"] = <
+					text = <"3">
+					description = <"Unable">
+				>
+				["at0119"] = <
+					text = <"1">
+					description = <"Normally without using a railing">
+				>
+				["at0120"] = <
+					text = <"2">
+					description = <"Normally using a railing">
+				>
+				["at0121"] = <
+					text = <"3">
+					description = <"In any manner">
+				>
+				["at0122"] = <
+					text = <"4">
+					description = <"Unabel to do stairs">
+				>
+				["at0123"] = <
+					text = <"1">
+					description = <"Able to use transportation (bus)">
+				>
+				["at0124"] = <
+					text = <"2">
+					description = <"Unable to use public transportation (bus)">
+				>
+				["at0125"] = <
+					text = <"1">
+					description = <"Comfortably in ordinary chair for one hour">
+				>
+				["at0126"] = <
+					text = <"2">
+					description = <"On a high chair for 30 minutes">
+				>
+				["at0127"] = <
+					text = <"3">
+					description = <"Unable to sit comfortably in any chair">
+				>
+				["at0128"] = <
+					text = <"1">
+					description = <"Less than 30 ° fixed flexion contracture">
+				>
+				["at0129"] = <
+					text = <"2">
+					description = <"Less than 10 ° fixed abduction">
+				>
+				["at0130"] = <
+					text = <"3">
+					description = <"Less than 10 ° fixed internal rotation in extension">
+				>
+				["at0131"] = <
+					text = <"4">
+					description = <"Less than 3.2 cm limb length discrepancy">
+				>
+				["at0132"] = <
+					text = <"1">
+					description = <"None">
+				>
+				["at0133"] = <
+					text = <"2">
+					description = <"0>8">
+				>
+				["at0134"] = <
+					text = <"3">
+					description = <"8>16">
+				>
+				["at0135"] = <
+					text = <"4">
+					description = <"16>24">
+				>
+				["at0136"] = <
+					text = <"5">
+					description = <"24>32">
+				>
+				["at0137"] = <
+					text = <"6">
+					description = <"32>40">
+				>
+				["at0138"] = <
+					text = <"7">
+					description = <"40>45">
+				>
+				["at0139"] = <
+					text = <"8">
+					description = <"45>55">
+				>
+				["at0140"] = <
+					text = <"9">
+					description = <"55>65">
+				>
+				["at0141"] = <
+					text = <"10">
+					description = <"65>70">
+				>
+				["at0142"] = <
+					text = <"11">
+					description = <"70>75">
+				>
+				["at0143"] = <
+					text = <"12">
+					description = <"75>80">
+				>
+				["at0144"] = <
+					text = <"13">
+					description = <"80>90">
+				>
+				["at0145"] = <
+					text = <"14">
+					description = <"90>100">
+				>
+				["at0146"] = <
+					text = <"15">
+					description = <"100>110">
+				>
+				["at0147"] = <
+					text = <"1">
+					description = <"None">
+				>
+				["at0148"] = <
+					text = <"2">
+					description = <"0>5">
+				>
+				["at0149"] = <
+					text = <"3">
+					description = <"5>10">
+				>
+				["at0150"] = <
+					text = <"4">
+					description = <"10>15">
+				>
+				["at0151"] = <
+					text = <"5">
+					description = <"15>20">
+				>
+				["at0152"] = <
+					text = <"1">
+					description = <"None">
+				>
+				["at0153"] = <
+					text = <"2">
+					description = <"0>5">
+				>
+				["at0154"] = <
+					text = <"3">
+					description = <"5>10">
+				>
+				["at0155"] = <
+					text = <"4">
+					description = <"10>15">
+				>
+				["at0156"] = <
+					text = <"1">
+					description = <"None">
+				>
+				["at0157"] = <
+					text = <"2">
+					description = <"0>5">
+				>
+				["at0158"] = <
+					text = <"3">
+					description = <"5>10">
+				>
+				["at0159"] = <
+					text = <"4">
+					description = <"10>15">
 				>
 			>
 		>
