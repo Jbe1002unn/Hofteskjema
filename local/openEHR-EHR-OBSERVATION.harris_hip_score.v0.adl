@@ -18,9 +18,16 @@ description
 	details = <
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record the results for each component parameter and their total sum for the Harris hip score.">
+			purpose = <"To record the results for each component parameter and their total sum for the Harris hip score.
+
+">
 			keywords = <"arthroplasty","fractures","osteoarthritis","hip","HHS">
 			use = <"Use to record the results for each component parameter and their total sum for the Harris hip score.
+
+***used to record the value for each component variable (pain, function, deformity, range of motion).
+Calculate the total sum to provide an overall assessment of hip function.
+In clinical practice, HHS can identify functional deterioration in a patient with hip problems.
+Provide an objective indication of the degree of functional impairment in a patient with hip pathology, either preoperatively or postoperatively.***
 
 *** TO BE DEVELOPED AFTER FURTHER INVESTIGATION: Each parameter has multiple choices and selection of one value is permitted for each parameter with the exception of 'Absence of deformity'. All 4 values for 'Absence of deformity' should be available to the clinician and the clinician should select as many as are relevant for the individual. If all are 4 values are selected, the score for 'Absence of deformity' is 4 and if less than 4 values are selected, the score is recorded as 0.
 . The 'Total score' is the sum of all parameters***
@@ -40,7 +47,7 @@ Wamper KE, Sierevelt IN, Poolman RW, Bhandari M, Haverkamp D. The Harris hip sco
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"65f217a7c57c58e0265b1b30491a5c67">
+		["MD5-CAM-1.0.1"] = <"9ed54d766cb1b0fd51cab0fb27630b0b">
 		["build_uid"] = <"39934d4f-7385-4bcb-a0fb-fbe227061f36">
 		["revision"] = <"0.0.1-alpha">
 	>
