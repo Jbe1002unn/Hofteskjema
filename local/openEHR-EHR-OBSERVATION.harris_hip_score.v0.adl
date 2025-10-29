@@ -47,7 +47,7 @@ Wamper KE, Sierevelt IN, Poolman RW, Bhandari M, Haverkamp D. The Harris hip sco
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"9ed54d766cb1b0fd51cab0fb27630b0b">
+		["MD5-CAM-1.0.1"] = <"4c9e322204e97643066f751f089bdec5">
 		["build_uid"] = <"39934d4f-7385-4bcb-a0fb-fbe227061f36">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -308,7 +308,14 @@ definition
 											}
 										}
 									}
-									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Total score
+									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Harris Hip Score
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+										}
+									}
+									ELEMENT[at0160] occurrences matches {0..1} matches {    -- Modified Harris Hip Score
 										value matches {
 											DV_COUNT matches {
 												magnitude matches {|0..100|}
@@ -680,7 +687,7 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
 				>
 				["at0085"] = <
-					text = <"Total score">
+					text = <"Harris Hip Score">
 					description = <"The total sum of each component parameter for the Harris hip score.">
 				>
 				["at0086"] = <
@@ -974,6 +981,10 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 				["at0159"] = <
 					text = <"4">
 					description = <"10>15">
+				>
+				["at0160"] = <
+					text = <"Modified Harris Hip Score">
+					description = <"">
 				>
 			>
 		>
