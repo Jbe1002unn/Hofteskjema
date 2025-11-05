@@ -47,7 +47,7 @@ Wamper KE, Sierevelt IN, Poolman RW, Bhandari M, Haverkamp D. The Harris hip sco
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e64163efbab886b16d60dc96dd33368e">
+		["MD5-CAM-1.0.1"] = <"4bd74fd8e606bca21c2f394502495d65">
 		["build_uid"] = <"39934d4f-7385-4bcb-a0fb-fbe227061f36">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -139,47 +139,44 @@ definition
 										value matches {
 											1.0|[local::at0053],
 											0.04|[local::at0054],
-											3.0|[local::at0055],
-											4.0|[local::at0056],
-											5.0|[local::at0057],
-											6.0|[local::at0058],
-											7.0|[local::at0059],
-											8.0|[local::at0060],
-											9.0|[local::at0061],
-											10.0|[local::at0062],
-											11.0|[local::at0063],
-											12.0|[local::at0064],
-											13.0|[local::at0065],
-											14.0|[local::at0066],
-											15.0|[local::at0067]
+											0.08|[local::at0055],
+											1.2|[local::at0056],
+											1.6|[local::at0057],
+											2.0|[local::at0058],
+											2.25|[local::at0059],
+											2.55|[local::at0060],
+											2.85|[local::at0061],
+											3.0|[local::at0062],
+											3.15|[local::at0063],
+											3.3|[local::at0064],
+											3.6|[local::at0065],
+											3.75|[local::at0066],
+											3.9|[local::at0067]
 										}
 									}
 									ELEMENT[at0068] occurrences matches {0..1} matches {    -- 11. Total degrees of abduction
 										value matches {
-											1|[local::at0069],
-											2|[local::at0070],
-											3|[local::at0071],
-											4|[local::at0072],
-											5|[local::at0073]
-											DV_SCALE matches {*}
+											0.0|[local::at0163],
+											0.2|[local::at0164],
+											0.4|[local::at0165],
+											0.6|[local::at0166],
+											0.65|[local::at0167]
 										}
 									}
 									ELEMENT[at0074] occurrences matches {0..1} matches {    -- 12. Total degrees of external rotation
 										value matches {
-											1|[local::at0075],
-											2|[local::at0076],
-											3|[local::at0077],
-											4|[local::at0078]
-											DV_SCALE matches {*}
+											0.0|[local::at0168],
+											0.1|[local::at0169],
+											0.2|[local::at0170],
+											0.3|[local::at0171]
 										}
 									}
 									ELEMENT[at0079] occurrences matches {0..1} matches {    -- 13. Total degrees of adduction
 										value matches {
-											1|[local::at0080],
-											2|[local::at0081],
-											3|[local::at0082],
-											4|[local::at0083]
-											DV_SCALE matches {*}
+											0.0|[local::at0172],
+											0.05|[local::at0173],
+											0.1|[local::at0174],
+											0.15|[local::at0175]
 										}
 									}
 									ELEMENT[at0085] occurrences matches {0..1} matches {    -- HHS total
@@ -523,65 +520,13 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 					text = <"11. Total degrees of abduction">
 					description = <"">
 				>
-				["at0069"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0070"] = <
-					text = <"0>5">
-					description = <"0,2">
-				>
-				["at0071"] = <
-					text = <"5>10">
-					description = <"0,4">
-				>
-				["at0072"] = <
-					text = <"10>15">
-					description = <"0,6">
-				>
-				["at0073"] = <
-					text = <"15>20">
-					description = <"0,65">
-				>
 				["at0074"] = <
 					text = <"12. Total degrees of external rotation">
 					description = <"">
 				>
-				["at0075"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0076"] = <
-					text = <"0>5">
-					description = <"0,1">
-				>
-				["at0077"] = <
-					text = <"5>10">
-					description = <"0,2">
-				>
-				["at0078"] = <
-					text = <"10>15">
-					description = <"0,3">
-				>
 				["at0079"] = <
 					text = <"13. Total degrees of adduction">
 					description = <"">
-				>
-				["at0080"] = <
-					text = <"None">
-					description = <"0">
-				>
-				["at0081"] = <
-					text = <"0>5">
-					description = <"0,05">
-				>
-				["at0082"] = <
-					text = <"5>10">
-					description = <"0,1">
-				>
-				["at0083"] = <
-					text = <"10>15">
-					description = <"0,15">
 				>
 				["at0084"] = <
 					text = <"Extension">
@@ -635,6 +580,58 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 				["at0162"] = <
 					text = <"Modified HHS raw total">
 					description = <"">
+				>
+				["at0163"] = <
+					text = <"None">
+					description = <"0">
+				>
+				["at0164"] = <
+					text = <"0>5">
+					description = <"0,2">
+				>
+				["at0165"] = <
+					text = <"5>10">
+					description = <"0,4">
+				>
+				["at0166"] = <
+					text = <"10>15">
+					description = <"0,6">
+				>
+				["at0167"] = <
+					text = <"15>20">
+					description = <"0,65">
+				>
+				["at0168"] = <
+					text = <"None">
+					description = <"0">
+				>
+				["at0169"] = <
+					text = <"0>5">
+					description = <"0,1">
+				>
+				["at0170"] = <
+					text = <"5>10">
+					description = <"0,2">
+				>
+				["at0171"] = <
+					text = <"10>15">
+					description = <"0,3">
+				>
+				["at0172"] = <
+					text = <"None">
+					description = <"0">
+				>
+				["at0173"] = <
+					text = <"0>5">
+					description = <"0,05">
+				>
+				["at0174"] = <
+					text = <"5>10">
+					description = <"0,1">
+				>
+				["at0175"] = <
+					text = <"10>15">
+					description = <"0,15">
 				>
 			>
 		>
