@@ -47,7 +47,7 @@ Wamper KE, Sierevelt IN, Poolman RW, Bhandari M, Haverkamp D. The Harris hip sco
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ec250cea9ce0901c481dc01b5c02cc3d">
+		["MD5-CAM-1.0.1"] = <"32426a510f0cdde64056c88e894d36a1">
 		["build_uid"] = <"39934d4f-7385-4bcb-a0fb-fbe227061f36">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -309,18 +309,46 @@ definition
 											}
 										}
 									}
-									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Harris Hip Score
+									ELEMENT[at0085] occurrences matches {0..1} matches {    -- HHS total
 										value matches {
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
+											C_DV_QUANTITY <
+												property = <[openehr::380]>
+												list = <
+													["1"] = <
+														units = <"1">
+														magnitude = <|0.0..100.0|>
+														precision = <|2|>
+													>
+												>
+											>
 										}
 									}
-									ELEMENT[at0160] occurrences matches {0..1} matches {    -- Modified Harris Hip Score
+									ELEMENT[at0160] occurrences matches {0..1} matches {    -- Modified HHS total
 										value matches {
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
+											C_DV_QUANTITY <
+												property = <[openehr::380]>
+												list = <
+													["1"] = <
+														units = <"1">
+														magnitude = <|0.0..100.0|>
+														precision = <|2|>
+													>
+												>
+											>
+										}
+									}
+									ELEMENT[at0162] occurrences matches {0..1} matches {    -- Modified HHS raw total
+										value matches {
+											C_DV_QUANTITY <
+												property = <[openehr::380]>
+												list = <
+													["1"] = <
+														units = <"1">
+														magnitude = <|0.0..91.0|>
+														precision = <|2|>
+													>
+												>
+											>
 										}
 									}
 									ELEMENT[at0086] occurrences matches {0..1} matches {    -- Grading
@@ -688,7 +716,7 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
 				>
 				["at0085"] = <
-					text = <"Harris Hip Score">
+					text = <"HHS total">
 					description = <"The total sum of each component parameter for the Harris hip score.">
 				>
 				["at0086"] = <
@@ -984,11 +1012,15 @@ Limb length discrepancy less than 3.2 cm (1.5 inches).">
 					description = <"10>15">
 				>
 				["at0160"] = <
-					text = <"Modified Harris Hip Score">
+					text = <"Modified HHS total">
 					description = <"">
 				>
 				["at0161"] = <
 					text = <"None">
+					description = <"">
+				>
+				["at0162"] = <
+					text = <"Modified HHS raw total">
 					description = <"">
 				>
 			>
