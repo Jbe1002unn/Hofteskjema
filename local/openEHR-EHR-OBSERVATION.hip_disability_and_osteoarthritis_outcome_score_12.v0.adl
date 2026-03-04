@@ -39,7 +39,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"367e46d3ad073e160c5fe0f7309b2686">
+		["MD5-CAM-1.0.1"] = <"0c305fe34bb5600565c3e3e6e1748634">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
 	>
 
@@ -565,11 +565,11 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"*Pain (en)">
+					text = <"Smerter">
 					description = <"*What amount of hip pain have you experienced the last week during the following activities? (en)">
 				>
 				["at0005"] = <
-					text = <"*Function, daily living (en)">
+					text = <"Fysisk funksjon">
 					description = <"*The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your hip. (en)">
 				>
 				["at0006"] = <
@@ -577,99 +577,99 @@ ontology
 					description = <"">
 				>
 				["at0007"] = <
-					text = <"*1. How often do you experience hip pain? (en)">
+					text = <"Hvor ofte har du vondt i hoften?">
 					description = <"">
 				>
 				["at0013"] = <
-					text = <"*Never (en)">
+					text = <"Aldri">
 					description = <"">
 				>
 				["at0014"] = <
-					text = <"*Monthly (en)">
+					text = <"Hver måned">
 					description = <"">
 				>
 				["at0015"] = <
-					text = <"*Weekly (en)">
+					text = <"Hver Uke">
 					description = <"">
 				>
 				["at0016"] = <
-					text = <"*Daily (en)">
+					text = <"Hver dag">
 					description = <"">
 				>
 				["at0017"] = <
-					text = <"*Always (en)">
+					text = <"Alltid">
 					description = <"">
 				>
 				["at0018"] = <
-					text = <"*4. Sitting or lying (en)">
+					text = <"Sittende eller liggende">
 					description = <"">
 				>
 				["at0019"] = <
-					text = <"*None (en)">
+					text = <"Ingen">
 					description = <"">
 				>
 				["at0020"] = <
-					text = <"*Mild (en)">
+					text = <"Lette">
 					description = <"">
 				>
 				["at0021"] = <
-					text = <"*Moderate (en)">
+					text = <"Moderate">
 					description = <"">
 				>
 				["at0022"] = <
-					text = <"*Severe (en)">
+					text = <"Store">
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"*Extreme (en)">
+					text = <"Svært store">
 					description = <"">
 				>
 				["at0025"] = <
-					text = <"*2. Walking on a flat surface (en)">
+					text = <"Gå på jevnt underlag">
 					description = <"">
 				>
 				["at0026"] = <
-					text = <"*None (en)">
+					text = <"Ingen">
 					description = <"">
 				>
 				["at0027"] = <
-					text = <"*Mild (en)">
+					text = <"Lette">
 					description = <"">
 				>
 				["at0028"] = <
-					text = <"*Moderate (en)">
+					text = <"Moderate">
 					description = <"">
 				>
 				["at0029"] = <
-					text = <"*Severe (en)">
+					text = <"Store">
 					description = <"">
 				>
 				["at0030"] = <
-					text = <"*Extreme (en)">
+					text = <"Svært store">
 					description = <"">
 				>
 				["at0031"] = <
-					text = <"*3. Going up or down stairs (en)">
+					text = <"Gå opp eller ned trapper">
 					description = <"">
 				>
 				["at0032"] = <
-					text = <"*None (en)">
+					text = <"Ingen">
 					description = <"">
 				>
 				["at0033"] = <
-					text = <"*Mild (en)">
+					text = <"Lette">
 					description = <"">
 				>
 				["at0034"] = <
-					text = <"*Moderate (en)">
+					text = <"Moderate">
 					description = <"">
 				>
 				["at0035"] = <
-					text = <"*Severe (en)">
+					text = <"Store">
 					description = <"">
 				>
 				["at0036"] = <
-					text = <"*Extreme (en)">
+					text = <"Svært store">
 					description = <"">
 				>
 				["at0038"] = <
@@ -697,27 +697,27 @@ ontology
 					description = <"">
 				>
 				["at0044"] = <
-					text = <"*5. Rising from sitting (en)">
+					text = <"Reise deg opp fra sittende">
 					description = <"">
 				>
 				["at0045"] = <
-					text = <"*None (en)">
+					text = <"Ingen">
 					description = <"">
 				>
 				["at0046"] = <
-					text = <"*Mild (en)">
+					text = <"Lette">
 					description = <"">
 				>
 				["at0047"] = <
-					text = <"*Moderate (en)">
+					text = <"Moderate">
 					description = <"">
 				>
 				["at0048"] = <
-					text = <"*Severe (en)">
+					text = <"Store">
 					description = <"">
 				>
 				["at0049"] = <
-					text = <"*Extreme (en)">
+					text = <"Svært store">
 					description = <"">
 				>
 				["at0050"] = <
@@ -873,7 +873,7 @@ ontology
 					description = <"">
 				>
 				["at0096"] = <
-					text = <"*Pain score (en)">
+					text = <"Smerte">
 					description = <"">
 				>
 				["at0097"] = <
