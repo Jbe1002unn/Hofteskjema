@@ -18,7 +18,7 @@ description
 		>
 	>
 	other_details = <
-		["MD5-CAM-1.0.1"] = <"8849543708de1123bad34a7e34420811">
+		["MD5-CAM-1.0.1"] = <"b72079f045a3d9c66e59c69d449a404b">
 		["build_uid"] = <"6601d8bc-851f-3ea4-b987-71d59e75ae57">
 	>
 
@@ -1338,7 +1338,7 @@ ontology
 				>
 				["at0219"] = <
 					text = <"Hvor ofte gjør hoften din seg bemerket?">
-					description = <"*">
+					description = <"">
 				>
 				["at0220"] = <
 					text = <"Alltid">
@@ -1362,7 +1362,7 @@ ontology
 				>
 				["at0225"] = <
 					text = <"Har du forandret levemåte for å unngå å belaste hoften?">
-					description = <"*">
+					description = <"">
 				>
 				["at0226"] = <
 					text = <"Ekstremt">
@@ -1386,7 +1386,7 @@ ontology
 				>
 				["at0231"] = <
 					text = <"I hvor stor grad kan du stole på hoften din?">
-					description = <"*">
+					description = <"">
 				>
 				["at0232"] = <
 					text = <"Ikke i det hele tatt">
@@ -1410,7 +1410,7 @@ ontology
 				>
 				["at0237"] = <
 					text = <"Hvor store problemer har du med hoften din generelt sett?">
-					description = <"*">
+					description = <"">
 				>
 				["at0238"] = <
 					text = <"Svært store">
