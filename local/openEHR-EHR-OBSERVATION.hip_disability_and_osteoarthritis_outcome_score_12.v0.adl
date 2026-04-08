@@ -25,7 +25,7 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			keywords = <"*Hip, HOOS-12 (en)", ...>
+			keywords = <"Høfte, HOOS-12", ...>
 			copyright = <"© openEHR Foundation">
 		>
 		["en"] = <
@@ -39,7 +39,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e74d2643d59b0b13d3023245fbd61ab1">
+		["MD5-CAM-1.0.1"] = <"937cbd02972f15cc1c2b23f3f5191194">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
 	>
 
@@ -549,8 +549,8 @@ ontology
 		["nb"] = <
 			items = <
 				["at0000"] = <
-					text = <"*hip_disability_and_osteoarthritis_outcome_score_12 (en)">
-					description = <"*Instructions: This questionnaire asks for your views about your hip. Answer every question by marking the appropriate box, only one box for each question. If you are unsure about how to answer a question, please give the best answer you can. (en)">
+					text = <"hip_disability_and_osteoarthritis_outcome_score_12">
+					description = <"Instruksjoner: Dette spørreskjemaet inneholder spørsmål om hvordan du opplever hofteleddet ditt. Besvar spørsmålene ved å krysse av for det alternativet du synes passer best for deg (kun ett kryss for hvert spørsmål). Er du usikker, kryss likevel av for det alternativet som føles riktigst.">
 				>
 				["at0001"] = <
 					text = <"History">
