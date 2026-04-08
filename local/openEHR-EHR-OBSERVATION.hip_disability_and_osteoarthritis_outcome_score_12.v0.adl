@@ -25,12 +25,24 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
+			purpose = <"*To record patient-reported outcomes from the HOOS-12 questionnaire, including assessments of pain, symptoms, function in daily living, and hip-related quality of life.
+
+While openEHR archetypes are freely available under an open license, the specific content of this HOOS-12 archetype may be subject to copyright and licensing restrictions. Any use of this archetype within implementations must comply with the terms established by the copyright holders.
+
+© Mapi Research Trust, 2025. Mapi Research Trust holds and/or administers the copyright on this document. The unauthorized use of any portion of this document is prohibited (en)">
 			keywords = <"Høfte, HOOS-12", ...>
 			copyright = <"© openEHR Foundation">
+			use = <"*Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose. (en)">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
+			purpose = <"To record patient-reported outcomes from the HOOS-12 questionnaire, including assessments of pain, symptoms, function in daily living, and hip-related quality of life.
+
+While openEHR archetypes are freely available under an open license, the specific content of this HOOS-12 archetype may be subject to copyright and licensing restrictions. Any use of this archetype within implementations must comply with the terms established by the copyright holders.
+
+© Mapi Research Trust, 2025. Mapi Research Trust holds and/or administers the copyright on this document. The unauthorized use of any portion of this document is prohibited">
 			keywords = <"Hip, HOOS-12", ...>
+			use = <"Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose.">
 		>
 	>
 	other_details = <
