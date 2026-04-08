@@ -27,22 +27,32 @@ description
 			language = <[ISO_639-1::nb]>
 			purpose = <"*To record patient-reported outcomes from the HOOS-12 questionnaire, including assessments of pain, symptoms, function in daily living, and hip-related quality of life.
 
+ (en)">
+			keywords = <"Høfte, HOOS-12", ...>
+			copyright = <"© openEHR Foundation">
+			use = <"*Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose.
+
 While openEHR archetypes are freely available under an open license, the specific content of this HOOS-12 archetype may be subject to copyright and licensing restrictions. Any use of this archetype within implementations must comply with the terms established by the copyright holders.
 
 © Mapi Research Trust, 2025. Mapi Research Trust holds and/or administers the copyright on this document. The unauthorized use of any portion of this document is prohibited (en)">
-			keywords = <"Høfte, HOOS-12", ...>
-			copyright = <"© openEHR Foundation">
-			use = <"*Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose. (en)">
+			misuse = <"*This archetype must not be used to modify, reinterpret, or replace the official HOOS-12 questionnaire items, response options, or scoring rules.
+It should not be used for diagnostic purposes or clinical decision-making without appropriate clinical interpretation.
+Distribution of the HOOS-12 instrument itself requires adherence to copyright and licensing requirements established by the rights holders. (en)">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To record patient-reported outcomes from the HOOS-12 questionnaire, including assessments of pain, symptoms, function in daily living, and hip-related quality of life.
 
+">
+			keywords = <"Hip, HOOS-12", ...>
+			use = <"Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose.
+
 While openEHR archetypes are freely available under an open license, the specific content of this HOOS-12 archetype may be subject to copyright and licensing restrictions. Any use of this archetype within implementations must comply with the terms established by the copyright holders.
 
 © Mapi Research Trust, 2025. Mapi Research Trust holds and/or administers the copyright on this document. The unauthorized use of any portion of this document is prohibited">
-			keywords = <"Hip, HOOS-12", ...>
-			use = <"Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose.">
+			misuse = <"This archetype must not be used to modify, reinterpret, or replace the official HOOS-12 questionnaire items, response options, or scoring rules.
+It should not be used for diagnostic purposes or clinical decision-making without appropriate clinical interpretation.
+Distribution of the HOOS-12 instrument itself requires adherence to copyright and licensing requirements established by the rights holders.">
 		>
 	>
 	other_details = <
@@ -53,6 +63,15 @@ While openEHR archetypes are freely available under an open license, the specifi
 		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"937cbd02972f15cc1c2b23f3f5191194">
 		["build_uid"] = <"826cf29f-5019-3cdf-9ef1-47ec3939b524">
+		["references"] = <"Nilsdotter AK, Lohmander LS, Klassbo M, Roos EM (2003).
+Hip disability and Osteoarthritis Outcome Score (HOOS): validity and responsiveness in total hip replacement.
+BMC Musculoskeletal Disorders, 4:10.
+(Original HOOS instrument from which HOOS-12 is derived.)
+
+Paul W. Stratford, J. David Kennedy, Lehana Thabane, George A. Wells (2019).
+HOOS-12: Development and evaluation of a short-form version of the Hip disability and Osteoarthritis Outcome Score.
+Osteoarthritis and Cartilage, 27(5), 754–761.
+(Describes the development and validation of HOOS-12.)">
 	>
 
 definition
