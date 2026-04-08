@@ -25,19 +25,18 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"*To record patient-reported outcomes from the HOOS-12 questionnaire, including assessments of pain, symptoms, function in daily living, and hip-related quality of life.
-
- (en)">
+			purpose = <"For å registrere pasientrapporterte utfall fra HOOS-12-spørreskjemaet, inkludert vurderinger av smerte, symptomer, funksjon i dagliglivet og hofterelatert livskvalitet.
+">
 			keywords = <"Høfte, HOOS-12", ...>
 			copyright = <"© openEHR Foundation">
-			use = <"*Use to record patient-reported outcomes from the HOOS-12 questionnaire, including all responses related to pain, symptoms, function in daily living, and hip-related quality of life, ensuring alignment with the stated purpose.
+			use = <"Brukes til å registrere pasientrapporterte utfall fra HOOS-12-spørreskjemaet, inkludert alle svar relatert til smerte, symptomer, funksjon i dagliglivet og hofterelatert livskvalitet, i tråd med det angitte formålet.
 
-While openEHR archetypes are freely available under an open license, the specific content of this HOOS-12 archetype may be subject to copyright and licensing restrictions. Any use of this archetype within implementations must comply with the terms established by the copyright holders.
+Selv om openEHR-arketyper er fritt tilgjengelige under en åpen lisens, kan det spesifikke innholdet i denne HOOS-12-arketypen være underlagt opphavsrett og lisensbegrensninger. All bruk av denne arketypen i implementasjoner må være i samsvar med vilkårene fastsatt av rettighetshaverne.
 
-© Mapi Research Trust, 2025. Mapi Research Trust holds and/or administers the copyright on this document. The unauthorized use of any portion of this document is prohibited (en)">
-			misuse = <"*This archetype must not be used to modify, reinterpret, or replace the official HOOS-12 questionnaire items, response options, or scoring rules.
-It should not be used for diagnostic purposes or clinical decision-making without appropriate clinical interpretation.
-Distribution of the HOOS-12 instrument itself requires adherence to copyright and licensing requirements established by the rights holders. (en)">
+© Mapi Research Trust, 2025. Mapi Research Trust innehar og/eller forvalter opphavsretten til dette dokumentet. Uautorisert bruk av noen del av dette dokumentet er forbudt.">
+			misuse = <"Denne arketypen må ikke brukes til å endre, omtolke eller erstatte de offisielle HOOS-12-spørsmålene, svaralternativene eller skåringsreglene.
+Den skal ikke brukes til diagnostiske formål eller kliniske beslutninger uten hensiktsmessig klinisk tolkning.
+Distribusjon av selve HOOS-12-instrumentet krever at opphavsretts- og lisenskrav fastsatt av rettighetshaverne overholdes.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
